@@ -1,8 +1,12 @@
 local html = require "html"
 local toWatch = dofile "toWatch.lua"
 
+for i, movie in ipairs(toWatch) do
+  movie.order = i
+end
+
 table.sort(toWatch, function(m1, m2)
-  return m1.year == m2.year and m1.title < m2.title or m1.year < m2.year
+  return m1.year == m2.year and m1.order < m2.order or m1.year < m2.year
 end)
 
 local tierList = {S = {}, A = {}, B = {}, C = {}, D = {}, F = {}, ["?"] = {}}
@@ -42,6 +46,7 @@ end
 
 return html.document{
   html.head{
+  --[[
     html.style{
       [".tierRow"] = {
 
@@ -62,6 +67,7 @@ return html.document{
         ["vertical-align"] = "middle"
       },
     },
+--]]
   },
   html.body{
     html.h1{"Andrew's Kaiju Tier List"},

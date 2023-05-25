@@ -33,16 +33,16 @@ return {
   {tier = "F", year = 1955, title = "Godzilla Raids Again",
    blurb = "A frankly pathetic sequel, lacking both heart and flare."},
   {tier = "D", year = 1956, title = "Godzilla: King of the Monsters!",
-   blurb = "Don't expect a simple localization of the OG Godzilla, this is so heavily "
+   blurb = "Don't expect a localization of the OG Godzilla, this is so heavily "
         .. "edited that it's basically a new film that just scrapped Godzilla for "
         .. "stock footage."},
   {tier = "C", year = 1963, title = "King Kong vs Godzilla",
-   blurb = "A slapstick reimagining of the titular beasts - silly, but entertaining."},
+   blurb = "A slapstick reimagining of the titular beasts - silly, but pretty funny."},
   {tier = "C", year = 1964, title = "Mothra vs Godzilla",
    blurb = "Enticingly mysterious and mystical, but Godzilla's portrayal is fairly "
         .. "unintimidating and the fight scenes are repetitive."},
   {tier = "C", year = 1964, title = "Ghidorah, the Three-Headed Monster",
-   blurb = "Has some memorable shots, such as Ghidorah \"hatching\", but was largely "
+   blurb = "Has some memorable shots, such as Ghidorah hatching, but was largely "
         .. "kind of forgettable."},
   {tier = "C", year = 1965, title = "Invasion of Astro-Monster",
    blurb = "An American/Japanese co-production. It's clear when watching that the "
@@ -56,7 +56,7 @@ return {
   {tier = "B", year = 1968, title = "Destroy All Monsters",
    blurb = "A mashup of every monster they had sitting in the closet at time of "
         .. "shooting. The final fight is too one-sided to be tense, but it is "
-        .. "pretty fun to watch all the other kaiju kicking the shit out of Ghidorah."},
+        .. "fun to watch all the other kaiju kicking the shit out of Ghidorah."},
   {tier = "D", year = 1969, title = "All Monsters Attack",
    blurb = "A film about a small boy learning how to stand up to bullies. Not horribly "
         .. "made, but lacking anything to appeal to adults."},
@@ -67,19 +67,18 @@ return {
         .. "adults investigating the Mysterious Upcoming Amusement Park(tm)."},
   {tier = "F", year = 1973, title = "Godzilla vs Megalon",
    blurb = "About as nonsensical as they come, and without enough action to even "
-        .. "pass as dumb fun."},
+        .. "pass as dumb fun. Reuses a lot of footage from prior films."},
   {tier = "B", year = 1974, title = "Godzilla vs Mechagodzilla",
    blurb = "Mechagodzilla is spectacular in a fight, owing to his myriad weapons "
         .. "and gadgets. The writing is uncharacteristically strong as well."},
   {tier = "C", year = 1975, title = "The Terror of Mechagodzilla",
-   blurb = "Titanosaurus was pretty cool, I guess."},
+   blurb = "Titanosaurus is pretty cool, I guess."},
 
   -- Heisei
   {tier = "D", year = 1985, title = "The Return of Godzilla",
-   blurb = "This film heralds a return to a darker, more realistic, more adult "
-        .. "take on Godzilla. Unfortunately, the writing seems to have inadvertently "
-        .. "retained the silliness of the Showa films, so it's hard for the audience "
-        .. "to take it as seriously as it takes itself."},
+   blurb = "A return to a darker, more realistic, more adult take on Godzilla. Unfortunately, "
+        .. "the writing seems to have retained the silliness of the Showa films, so "
+        .. "it's hard for the audience to take it as seriously as it takes itself."},
   {tier = "B", year = 1989, title = "Godzilla vs Biollante",
    blurb = "Biollante, and the parts of the film that focus on her, are incredible. "
         .. "Unfortunately, much of the film focuses instead on a fairly conventional "
@@ -136,11 +135,12 @@ return {
   {tier = "B", year = 2021, title = "Godzilla vs Kong",
    blurb = "The plot is nonsense packed with sci-fi gobbledygook, but that bit where "
         .. "Kong performs a Mortal Kombat fatality on Mechagodzilla is gnarly as fuck."},
+  {tier = nil, year = 2024, title = "Godzilla x Kong: The New Empire"},
 
   -- Reiwa
   {tier = "B", year = 2016, title = "Shin Godzilla",
    blurb = "Very analytical and believable, plus this design of Godzilla is one of "
-        .. "the best. It was pretty dialogue-heavy, though, and dry at times."},
+        .. "the best. It was very dialogue-heavy, though, and dry at times."},
   {tier = "C", year = 2017, title = "Godzilla: Planet of Monsters",
    blurb = "Cool visual style and excellent worldbuilding are dragged down by an "
         .. "almost insufferable protagonist."},
@@ -170,7 +170,7 @@ return {
   {tier = "C", year = 1961, title = "Mothra",
    blurb = "beeeg moth :)"},
   {tier = "C", year = 1996, title = "Rebirth of Mothra",
-   blurb = "Competently made, but decidedly more for japanese tweens rather than "
+   blurb = "Competently made, but decidedly more for Japanese tweens rather than "
         .. "Canadian adults."},
   {tier = "B", year = 1997, title = "Rebirth of Mothra II",
    blurb = "Surprisingly high production value, but I really could've done without "
@@ -208,7 +208,7 @@ return {
         .. "and then sets him on fire. Conspicuous sponsorship from Kamogawa Sea World."},
   {tier = "F", year = 1980, title = "Gamera: Super Monster",
    blurb = "The bulk of the runtime is footage reused from prior Gamera films, "
-        .. "and the new footage has a \"home-made fan-film\" vibe."},
+        .. "and the new stuff has a \"home-made fan-film\" vibe."},
 
   -- Heisei
   {tier = "B", year = 1995, title = "Gamera: Guardian of the Universe",
@@ -253,10 +253,23 @@ return {
 
   -- Scooby Doo
   {tier = "C", year = 2004, title = "Scooby-Doo and the Loch Ness Monster",
-   blurb = "Entertaining and lighthearted, but clearly made-for-tv."},
+   blurb = "Cute and lighthearted, but clearly made-for-tv. The animation looks "
+        .. "very cheap in places."},
   {tier = "A", year = 2011, title = "Scooby-Doo! Legend of the Phantosaur",
    blurb = "An excellent action-comedy, both hilarious and exciting, although not "
         .. "mysterious in the least."},
+
+  -- Reigo, Raiga, Ohga
+  {tier = "F", year = 2005, title = "Reigo: King of the Sea Monsters",
+   blurb = "An all-around terrible alternate-history film that reaks of Japanese "
+        .. "military propaganda."},
+  {tier = "D", year = 2009, title = "Raiga: God of Monsters",
+   blurb = "The plot is barely present, the characters are boring, and the CGI sucks, "
+        .. "but the kaiju suit is decent."},
+  {tier = "D", year = 2021, title = "God Raiga vs King Ohga: War of the Monsters",
+   blurb = "As simple as the plot was, it was so bizarre in presentation that it "
+        .. "was hard to follow nonetheless. Terrible in a way that was oddly "
+        .. "captivating."},
 
   -- Mega Shark
   {tier = nil, year = 2009, title = "Mega Shark Versus Giant Octopus"},
@@ -272,14 +285,14 @@ return {
    blurb = "It is a testament to Pacific Rim's incredibly high quality that its sequel "
         .. "can be inferior in every way and still end up being passable."},
   {tier = "D", year = 2021, title = "Pacific Rim: The Black",
-   blurb = "At this point I've given up on the franchise, frankly. The horrible characters "
-        .. "made this downright unpleasant to watch at times."},
+   blurb = "I've given up on the Pacific Rim franchise. The horrible characters "
+        .. "make this downright unpleasant to watch at times."},
 
   -- Misc
   -- Dinosaur-like
-  {tier = "F", year = 1925, title = "The Lost World",
+  {tier = "D", year = 1925, title = "The Lost World",
    blurb = "Historically interesting, but lacking emotional depth, engaging narrative, "
-        .. "and entertainment value."},
+        .. "and entertainment value. Conspicuous blackface."},
   {tier = nil, year = 1940, title = "One Million B.C."},
   {tier = "C", year = 1953, title = "The Beast from 20,000 Fathoms",
    blurb = "One of \"the originals\", but, outside of Ray Harryhousen's fantastic "
@@ -292,15 +305,18 @@ return {
   {tier = nil, year = 1960, title = "The Lost World"},
   {tier = nil, year = 1961, title = "Reptilicus"},
   {tier = nil, year = 1961, title = "Gorgo"},
-  {tier = nil, year = 1966, title = "One Million Years B.C."},
+  {tier = "C", year = 1966, title = "One Million Years B.C.",
+   blurb = "Fairly one-note, portraying prehistoric life as almost entirely dominated "
+        .. "by violence, but at least it has Harryhousen's stop motion and Welch's "
+        .. "sex-appeal."},
   {tier = nil, year = 1967, title = "Yonggary"},
   {tier = nil, year = 1969, title = "The Valley of Gwangi"},
   {tier = nil, year = 1974, title = "The Land That Time Forgot"},
   {tier = nil, year = 1977, title = "The Crater Lake Monster"},
   {tier = nil, year = 1993, title = "Jurassic Park"},
   {tier = "D", year = 1994, title = "Dinosaur Island",
-   blurb = "Trashy and ridiculous, leaned heavily on sex-appeal, the one-liners "
-        .. "were all terrible, but it was fun in places anyway."},
+   blurb = "Trashy and ridiculous. Leans heavily on sex-appeal, terrible one-liners "
+        .. "abound, but fun in places anyway. Probably because of the boobies."},
   {tier = nil, year = 2008, title = "Loch Ness Terror"},
   {tier = "F", year = 2010, title = "Dinocroc vs Supergator",
    blurb = "It's aware of it's own shittiness, but does nothing worthwhile with that "
@@ -308,7 +324,8 @@ return {
   {tier = "C", year = 2019, title = "Howl from Beyond the Fog",
    blurb = "The monster steals the show, excellent in both design and execution. "
         .. "Nothing else about it really works for me, though. The marionettes are "
-        .. "not expressive enough to convey compelling characters."},
+        .. "not expressive enough to convey compelling characters, the digital visual-"
+        .. "effects look ameturish, and the song choices are bizarre."},
 
   -- Bugs
   {tier = "C", year = 1954, title = "Them!",
@@ -366,16 +383,21 @@ return {
   -- Giant Men
   {tier = nil, year = 1957, title = "The Amazing Colossal Man"},
   {tier = nil, year = 1958, title = "War of the Colossal Beast"},
-  {tier = nil, year = 2007, title = "Big Man Japan"},
+  {tier = "C", year = 2007, title = "Big Man Japan",
+   blurb = "A mockumentary about a man who's struggling  to preserve his family's "
+        .. "business of growing giant to fight bizarre monsters. Melancholic, bizarre, "
+        .. "and at times a bit gross."},
 
   -- Giantesses
-  {tier = "D", year = 1958, title = "Attack of the 50 Foot Woman",
+  {tier = "C", year = 1958, title = "Attack of the 50 Foot Woman",
    blurb = "The OG giantess film! This movie has the worst special effects I've "
         .. "ever seen in a feature-length film, and the story doesn't make a lot "
         .. "of sense, but it's kind-of endearing in it's own way."},
   {tier = "D", year = 1959, title = "The 30-Foot Bride of Candy Rock",
-   blurb = "Some jokes land, but many don't. Other than that, it's a wildly sexist "
-        .. "and outdated movie about a man and a woman learning their roles in marriage."},
+   blurb = "Lou Costello's performance lacks his signature high-energy goofery, "
+        .. "and he clearly struggles playing the straight man. Other "
+        .. "than that, it's a sexist and outdated movie about a man learning "
+        .. "to control his wife."},
   {tier = "B", year = 1993, title = "Attack of the 50 Foot Woman",
    blurb = "Successfully utilizes the giantess as a symbol of female empowerment, "
         .. "but does get pretty preachy towards the end."},
@@ -392,7 +414,7 @@ return {
         .. "reluctant laughs out of me."},
 
   -- Dragons
-  {tier = "C", year = 1963, title = "Atragon",
+  {tier = "D", year = 1963, title = "Atragon",
    blurb = "Suffers from one of the worst dubs I've ever heard."},
   {tier = nil, year = 1966, title = "The Magic Serpent"},
   {tier = nil, year = 1982, title = "Q: The Winged Serpent"},
@@ -417,7 +439,7 @@ return {
   {tier = nil, year = 1961, title = "Mysterious Island"},
   {tier = nil, year = 1962, title = "Gorath"},
   {tier = "C", year = 1965, title = "Frankensein vs Baragon",
-   blurb = "A giant frankenstein oddly kind of does it for me."},
+   blurb = "A giant frankenstein oddly kind of does it for me. Only kind of, though."},
   {tier = nil, year = 1966, title = "War of the Gargantuas"},
   {tier = nil, year = 1970, title = "Space Amoeba"},
   {tier = nil, year = 1972, title = "Daigoro vs Goliath"},
@@ -433,7 +455,10 @@ return {
   {tier = nil, year = 1985, title = "Pulgasari"},
   {tier = nil, year = 1985, title = "War of the God Monsters"},
   {tier = nil, year = 1988, title = "Thunder Of Gigantic Serpent"},
-  {tier = nil, year = 1990, title = "Tremors"},
+  {tier = "A", year = 1990, title = "Tremors",
+   blurb = "An action horror-comedy that succeeds in just about everything it sets "
+        .. "out to do. Spoofs on various genre tropes without ever getting too self-"
+        .. "referential."},
   {tier = "S", year = 1997, title = "Princess Mononoke",
    blurb = "Yes, this is a kaiju film. I will die on this hill."},
   {tier = nil, year = 2000, title = "Sakuya, The Slayer of Demons"},
@@ -452,8 +477,10 @@ return {
   {tier = nil, year = 2009, title = "Gehara: The Dark & Long Hair Monster"},
   {tier = "A", year = 2010, title = "Trollhunter",
    blurb = "Original, human, and able to engender sympathy for the monsters without "
-           .. "ever getting sappy."},
-  {tier = nil, year = 2012, title = "Grabbers"},
+        .. "ever getting sappy."},
+  {tier = "B", year = 2012, title = "Grabbers",
+   blurb = "A thoroughly entertaining horror-comedy, marred only by a romance subplot "
+        .. "that felt forced."},
   {tier = "A", year = 2016, title = "Colossal",
    blurb = "Darker than I expected, and in different ways than I would have guessed, "
         .. "but beautifully cathartic."},
@@ -473,6 +500,7 @@ return {
   {tier = nil, year = 2022, title = "The Lake"},
   {tier = "B", year = 2022, title = "Troll",
    blurb = "Comprised almost entirely of established kaiju & blockbuster tropes, but "
-        .. "expertly constructed and thoroughly entertaining."},
+        .. "expertly constructed."},
   {tier = nil, year = 2023, title = "Devil Beneath"},
+  {tier = nil, year = 2023, title = "The Beast Below"},
 }
