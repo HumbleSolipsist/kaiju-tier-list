@@ -385,7 +385,7 @@ return {
   {tier = nil, year = 1958, title = "War of the Colossal Beast"},
   {tier = "C", year = 2007, title = "Big Man Japan",
    blurb = "A mockumentary about a man who's struggling  to preserve his family's "
-        .. "business of growing giant to fight bizarre monsters. Melancholic, bizarre, "
+        .. "business of growing giant to fight monsters. Melancholic, bizarre, "
         .. "and at times a bit gross."},
 
   -- Giantesses
@@ -488,9 +488,9 @@ return {
   {tier = nil, year = 2017, title = "I Kill Giants"},
   {tier = nil, year = 2017, title = "The Ritual"},
   {tier = "C", year = 2018, title = "Rampage",
-   blurb = "Infantile humour, unimpressive dialogue, and an extremely by-the-numbers "
-        .. "plot, but the action is a lot of fun and the monster designs are pretty"
-        .. " solid."},
+   blurb = "It's a bit disappointing to see the goofy video game "
+        .. "classic Rampage converted into such a by-the-numbers blockbuster, but "
+        .. "I'd be lying if I said I didn't have fun."},
   {tier = nil, year = 2020, title = "Nezura 1964"},
   {tier = "A", year = 2020, title = "Love and Monsters",
    blurb = "A coming of age story, with an immersive setting, compelling characters, "
