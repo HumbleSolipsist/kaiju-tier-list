@@ -487,7 +487,10 @@ return {
   {tier = nil, year = 2016, title = "A Monster Calls"},
   {tier = nil, year = 2017, title = "I Kill Giants"},
   {tier = nil, year = 2017, title = "The Ritual"},
-  {tier = nil, year = 2018, title = "Rampage"},
+  {tier = "C", year = 2018, title = "Rampage",
+   blurb = "Infantile humour, unimpressive dialogue, and an extremely by-the-numbers "
+        .. "plot, but the action is a lot of fun and the monster designs are pretty"
+        .. " solid."},
   {tier = nil, year = 2020, title = "Nezura 1964"},
   {tier = "A", year = 2020, title = "Love and Monsters",
    blurb = "A coming of age story, with an immersive setting, compelling characters, "
