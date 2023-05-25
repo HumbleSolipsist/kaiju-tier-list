@@ -82,6 +82,23 @@ function html.comment(s)
   }
 end
 
+function html.style(c)
+  return {
+    content = c,
+    toHtml = function(self)
+      local output = "<style>\n"
+      for class, rules in pairs(self.content) do
+        output = output .. "  " .. class .. " {\n"
+        for ruleName, ruleVal in pairs(rules) do
+          output = output .. "    " .. ruleName .. ":" .. ruleVal .. ";\n"
+        end
+        output = output .. "  }\n"
+      end
+      return output .. "</style>"
+    end
+  }
+end
+
 local tags = {
   {name = "a",
     description = "Defines a hyperlink"},
@@ -271,8 +288,6 @@ local tags = {
     description = "Defines a section in a document"},
   {name = "strong",
     description = "Defines important text"},
-  {name = "style",
-    description = "Defines style information for a document"},
   {name = "sub",
     description = "Defines subscripted text"},
   {name = "summary",

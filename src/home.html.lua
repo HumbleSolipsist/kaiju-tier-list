@@ -47,7 +47,6 @@ end
 
 return html.document{
   html.head{
-  --[[
     html.style{
       [".tierRow"] = {
 
@@ -68,7 +67,6 @@ return html.document{
         ["vertical-align"] = "middle"
       },
     },
---]]
   },
   html.body{
     html.h1{"Andrew's Kaiju Tier List"},
