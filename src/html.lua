@@ -1,11 +1,15 @@
 local html = {}
 
 local function escapeCharacters(s)
-  return s
+  return s:gsub("&", "&amp;")
+          :gsub("\"", "&quot;")
+          :gsub("'", "&apos;")
+          :gsub("<", "&lt;")
+          :gsub(">", "&gt;")
 end
 
 local function indent(s)
-  return s
+  return "  " .. s:gsub("\n", "\n  ")
 end
 
 local function elementToHtml(element)
@@ -28,7 +32,7 @@ local function elementToHtml(element)
   end
 
   if element.tag.empty then
-    return output .. "/>\n"
+    return output .. "/>"
   end
   output = output .. ">\n"
 
@@ -38,12 +42,12 @@ local function elementToHtml(element)
     if contentType == "string" then
       output = output .. indent(escapeCharacters(v)) .. "\n"
     elseif contentType == "table" then
-      output = output .. indent(v:toHtml())
+      output = output .. indent(v:toHtml()) .. "\n"
     end
   end
 
   -- closing the element
-  output = output .. "</" .. element.tag.name .. ">\n"
+  output = output .. "</" .. element.tag.name .. ">"
   return output
 end
 
@@ -53,9 +57,27 @@ function html.document(c)
     toHtml = function(document)
       local output = "<!DOCTYPE html>\n"
       for _, element in ipairs(document.content) do
-        output = output .. element:toHtml()
+        output = output .. element:toHtml() .. "\n"
       end
       return output
+    end
+  }
+end
+
+function html.literal(s)
+  return {
+    content = s,
+    toHtml = function(self)
+      return self.content
+    end
+  }
+end
+
+function html.comment(s)
+  return {
+    content = s,
+    toHtml = function(self)
+      return "<!--" .. self.content .. "-->"
     end
   }
 end

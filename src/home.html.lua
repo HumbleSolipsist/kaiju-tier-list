@@ -1,4 +1,5 @@
-local html = require "html"
+--local html = require "html"
+local html = dofile "html.lua"
 local toWatch = dofile "toWatch.lua"
 
 for i, movie in ipairs(toWatch) do
