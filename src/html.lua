@@ -40,7 +40,7 @@ local function elementToHtml(element)
       if type(k) == "string" then
         output = output .. " " .. k .. " = \""
         if type(v) == "boolean" then
-          ouput = output .. v and "true" or "false"
+          ouput = output .. (v and "true" or "false")
         elseif type(v) == "number" or type(v) == "string" then
           output = output .. escapeCharacters(v)
         else
