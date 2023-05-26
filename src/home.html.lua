@@ -48,30 +48,34 @@ end
 
 return html.document{
   html.head{
-    html.style{
-      [".tierRow"] = {
-
-      },
-      [".tierName"] = {
-        display = "inline-block",
-        ["text-align"] = "center",
-      },
-      [".tierContent"] = {
-        display = "inline-block",
-      },
-      [".tierEntry"] = {
-        display = "inline-block",
-        padding = "4pt",
-        margin = "auto",
-        width = "150pt",
-        ["text-align"] = "center",
-        ["vertical-align"] = "middle"
-      },
-    },
+     html.style{
+       [".tierRow"] = {
+ 
+       },
+       [".tierName"] = {
+         display = "inline-block",
+         ["text-align"] = "center",
+       },
+       [".tierContent"] = {
+         display = "inline-block",
+       },
+       [".tierEntry"] = {
+         display = "inline-block",
+         padding = "4pt",
+         margin = "auto",
+         width = "150pt",
+         ["text-align"] = "center",
+         ["vertical-align"] = "middle"
+       },
+     },
   },
   html.body{
-    html.h1{"Andrew's Kaiju Tier List"},
-    html.p{"My kaiju film tier list. The term \"kaiju\" is used loosely here."},
+    html.h1 "Andrew's Kaiju Tier List",
+    html.p{"My kaiju film tier list. The term \"kaiju\" is used loosely here.",
+           "There are many items in here whos placement I am uncertain of, but I",
+           "think the list is mostly a good representation of my thoughts and feelings.",
+           "There is a little blurb for each rated film which you can see by hovering",
+           "over the film's title with you mouse (doesn't work on mobile)."},
     html.div{style = "background-color:#e6adad", tierListRow("S", tierList["S"])},
     html.div{style = "background-color:#e6d8ad", tierListRow("A", tierList["A"])},
     html.div{style = "background-color:#c9e6ad", tierListRow("B", tierList["B"])},

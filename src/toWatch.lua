@@ -174,7 +174,7 @@ return {
         .. "Canadian adults."},
   {tier = "B", year = 1997, title = "Rebirth of Mothra II",
    blurb = "Surprisingly high production value, but I really could've done without "
-        .. "that one shot which was filmed from the perspective of a man getting "
+        .. "that shot which was filmed from the perspective of a man getting "
         .. "his face pissed on."},
   {tier = "C", year = 1998, title = "Rebirth of Mothra III",
    blurb = "I'm not sure what's going on with the plot, but the kaiju suits are "
@@ -330,7 +330,7 @@ return {
   -- Bugs
   {tier = "C", year = 1954, title = "Them!",
    blurb = "Conventional 50s sci-fi fare - irradiated ants grow big (oh no!)."},
-  {tier = "C", year = 1955, title = "Tarantula",
+  {tier = "C", year = 1955, title = "Tarantula!",
    blurb = "Conventional 50s sci-fi fare - irradiated spider grows big (oh no!)."},
   {tier = nil, year = 1957, title = "Beginning of the End"},
   {tier = nil, year = 1957, title = "The Black Scorpion"},
@@ -385,8 +385,9 @@ return {
   {tier = nil, year = 1958, title = "War of the Colossal Beast"},
   {tier = "C", year = 2007, title = "Big Man Japan",
    blurb = "A mockumentary about a man who's struggling  to preserve his family's "
-        .. "business of growing giant to fight monsters. Melancholic, bizarre, "
-        .. "and at times a bit gross."},
+        .. "business of growing giant to fight monsters. The jokes rarely landed "
+        .. "for me, but I did enjoy the melancholic and frank look into the life "
+        .. "of a professional hero."},
 
   -- Giantesses
   {tier = "C", year = 1958, title = "Attack of the 50 Foot Woman",
@@ -460,7 +461,7 @@ return {
         .. "out to do. Spoofs on various genre tropes without ever getting too self-"
         .. "referential."},
   {tier = "S", year = 1997, title = "Princess Mononoke",
-   blurb = "Yes, this is a kaiju film. I will die on this hill."},
+   blurb = "Yes, this is a kaiju film (and a damn good one!). I will die on this hill."},
   {tier = nil, year = 2000, title = "Sakuya, The Slayer of Demons"},
   {tier = nil, year = 2005, title = "The Great Yokai War"},
   {tier = nil, year = 2005, title = "Negadon: The Monster from Mars"},
@@ -473,14 +474,14 @@ return {
         .. "and some genuine scares."},
   {tier = nil, year = 2008, title = "Monster"},
   {tier = "C", year = 2009, title = "Monsters vs Aliens",
-   blurb = "Immature, unfunny, but, in it's own way, cute enough to be enjoyable."},
+   blurb = "Immature, unfunny, but cute enough to be enjoyable."},
   {tier = nil, year = 2009, title = "Gehara: The Dark & Long Hair Monster"},
   {tier = "A", year = 2010, title = "Trollhunter",
    blurb = "Original, human, and able to engender sympathy for the monsters without "
         .. "ever getting sappy."},
   {tier = "B", year = 2012, title = "Grabbers",
    blurb = "A thoroughly entertaining horror-comedy, marred only by a romance subplot "
-        .. "that felt forced."},
+        .. "that feels forced."},
   {tier = "A", year = 2016, title = "Colossal",
    blurb = "Darker than I expected, and in different ways than I would have guessed, "
         .. "but beautifully cathartic."},

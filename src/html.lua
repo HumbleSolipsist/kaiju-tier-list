@@ -12,22 +12,42 @@ local function indent(s)
   return "  " .. s:gsub("\n", "\n  ")
 end
 
+local function processChildElements(element)
+  local output = ""
+
+  if type(element.content) == "string" then
+    return output .. indent(escapeCharacters(element.content))
+  end
+
+  for _, v in ipairs(element.content) do
+    contentType = type(v)
+    if contentType == "string" then
+      output = output .. indent(escapeCharacters(v)) .. "\n"
+    elseif contentType == "table" then
+      output = output .. indent(v:toHtml()) .. "\n"
+    end
+  end
+  return output
+end
+
 local function elementToHtml(element)
   -- opening the element
   local output = "<" .. element.tag.name
 
   -- adding element tags
-  for k, v in pairs(element.content) do
-    if type(k) == "string" then
-      output = output .. " " .. k .. " = \""
-      if type(v) == "boolean" then
-        ouput = output .. v and "true" or "false"
-      elseif type(v) == "number" or type(v) == "string" then
-        output = output .. v
-      else
-        error("Value needs to be a boolean, number, or string")
+  if type(element.content) ~= "string" then
+    for k, v in pairs(element.content) do
+      if type(k) == "string" then
+        output = output .. " " .. k .. " = \""
+        if type(v) == "boolean" then
+          ouput = output .. v and "true" or "false"
+        elseif type(v) == "number" or type(v) == "string" then
+          output = output .. escapeCharacters(v)
+        else
+          error("Value needs to be a boolean, number, or string")
+        end
+        output = output .. "\""
       end
-      output = output .. "\""
     end
   end
 
@@ -37,14 +57,7 @@ local function elementToHtml(element)
   output = output .. ">\n"
 
   -- adding element content
-  for _, v in ipairs(element.content) do
-    contentType = type(v)
-    if contentType == "string" then
-      output = output .. indent(escapeCharacters(v)) .. "\n"
-    elseif contentType == "table" then
-      output = output .. indent(v:toHtml()) .. "\n"
-    end
-  end
+  output = output .. processChildElements(element)
 
   -- closing the element
   output = output .. "</" .. element.tag.name .. ">"
@@ -73,11 +86,11 @@ function html.literal(s)
   }
 end
 
-function html.comment(s)
+function html.comment(c)
   return {
-    content = s,
+    content = c,
     toHtml = function(self)
-      return "<!--" .. self.content .. "-->"
+      return "<!--\n" .. processChildElements(self) .. "\n-->"
     end
   }
 end
