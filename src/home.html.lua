@@ -34,6 +34,7 @@ local function tierListRow(rowTitle, rowData)
       movie.poster
       and html.img{src = movie.poster, class = "moviePoster"}
       or html.comment("No poster."),
+      html.br{},
       html.i{movie.title},
       html.br{},
       "(" .. movie.year .. ")"
