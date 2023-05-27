@@ -53,11 +53,28 @@ local function tierListRow(rowTitle, rowData, bgColor)
   }
 end
 
+local function idLink(id)
+  return html.a{href = "#" .. id, id}
+end
+
 return html.document{
   html.head{
     html.spliceStylesheet("style.css"),
   },
   html.body{
+    html.div{
+      id = "sidebar",
+      html.ul{
+        html.li{html.a{href = "#", "Top"}},
+        html.li{idLink("S")},
+        html.li{idLink("A")},
+        html.li{idLink("B")},
+        html.li{idLink("C")},
+        html.li{idLink("D")},
+        html.li{idLink("F")},
+        html.li{idLink("?")},
+      }
+    },
     html.div{
       class = "mainContent",
       html.h1 "Andrew's Kaiju Tier List",
@@ -68,13 +85,13 @@ return html.document{
              "over the film's entry with your mouse (doesn't work on mobile).",
              "The fact that all the S-tier films were released after my birth is ",
              "a coincidence, as I am immune to bias and nostalgia."},
-      html.div{tierListRow("S", tierList["S"], "#e6adad")},
-      html.div{tierListRow("A", tierList["A"], "#e6d8ad")},
-      html.div{tierListRow("B", tierList["B"], "#c9e6ad")},
-      html.div{tierListRow("C", tierList["C"], "#ade6bb")},
-      html.div{tierListRow("D", tierList["D"], "#ade6e6")},
-      html.div{tierListRow("F", tierList["F"], "#adbbe6")},
-      html.div{tierListRow("?", tierList["?"], "#c9ade6")},
+      tierListRow("S", tierList["S"], "#e6adad"),
+      tierListRow("A", tierList["A"], "#e6d8ad"),
+      tierListRow("B", tierList["B"], "#c9e6ad"),
+      tierListRow("C", tierList["C"], "#ade6bb"),
+      tierListRow("D", tierList["D"], "#ade6e6"),
+      tierListRow("F", tierList["F"], "#adbbe6"),
+      tierListRow("?", tierList["?"], "#c9ade6"),
     }
   }
 }:toHtml()
