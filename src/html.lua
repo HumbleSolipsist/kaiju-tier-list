@@ -24,7 +24,7 @@ local function processChildElements(element, processString)
     if contentType == "string" then
       output = output .. processString(v) .. "\n"
     elseif contentType == "table" then
-      output = output .. indent(v:toHtml()) .. "\n"
+      output = output .. v:toHtml() .. "\n"
     end
   end
   return output
@@ -57,8 +57,7 @@ local function elementToHtml(element)
   output = output .. ">\n"
 
   -- adding element content
-  output = output .. processChildElements(element,
-    function (s) return indent(escapeCharacters(s)) end)
+  output = output .. indent(processChildElements(element, escapeCharacters))
 
   -- closing the element
   output = output .. "</" .. element.tag.name .. ">"
@@ -87,11 +86,9 @@ function html.comment(c)
   return {
     content = c,
     toHtml = function(self)
-      return "<!--\n" .. processChildElements(self,
-        function (s)
-          return indent(escapeCharacters(s))
-        end
-      ) .. "\n-->"
+      return "<!--\n"
+        .. indent(processChildElements(self, escapeCharacters))
+        .. "\n-->"
     end
   }
 end
