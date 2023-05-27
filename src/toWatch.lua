@@ -8,29 +8,28 @@ return {
    blurb = "Recognizes that Skull Island is interesting enough without Kong to "
         .. "still have a fun story, but decidedly on the slow side. Lacks purpose."},
   {tier = "C", year = 1967, title = "King Kong Escapes",
-   poster = "https://image.tmdb.org/t/p/w300_and_h450_bestv2/iE3NzIz0m8w7buqGGxwbIpIBupy.jpg",
+   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/King_Kong_Escapes_Japanese_Poster.jpg/220px-King_Kong_Escapes_Japanese_Poster.jpg",
    blurb = "Surprisingly, a lot of kaiju films take heavy inspiration from James Bond, "
         .. "though they don't tend to match its budget. This is one such film."},
   {tier = "D", year = 1976, title = "King Kong",
-   poster = "http://4.bp.blogspot.com/_EOSuF7QE88A/TNHWRAoNKKI/AAAAAAAAD8w/EIiW8xv1unM/s1600/King+Kong+1976+poster+1.jpg",
+   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/King_kong_1976_movie_poster.jpg/220px-King_kong_1976_movie_poster.jpg",
    blurb = "This retelling changes the plot in some truly idiotic ways, and far "
         .. "too much focus is placed on the sexual aspects of the story at the expense "
         .. "of the action."},
   {tier = "D", year = 1986, title = "King Kong Lives",
-   poster = "https://i2.netflixmovies.com/dibsl9ebc/image/upload/w_200,h_297,c_lfill,g_north/initrl1lduz4iwkthawb.jpg",
+   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Kingkonglives.jpg/220px-Kingkonglives.jpg",
    blurb = "He's alive and he's horny, what more could you ask for? A lot, actually. "
         .. "On the bright side, you get to see Linda Hamilton's right nipple for a frame or two."},
   {tier = "F", year = 1998, title = "The Mighty Kong",
-   poster = "https://a.ltrbxd.com/resized/film-poster/2/1/7/5/7/7/217577-the-mighty-kong-0-230-0-345-crop.jpg?k=2fc630a3d8",
+   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Mighty_Kong_Video.jpg/220px-Mighty_Kong_Video.jpg",
    blurb = "A perplexingly awful attempt at a child-friendly retelling of a horror "
         .. "movie about a rapist gorilla."},
   {tier = "S", year = 2005, title = "King Kong",
-   poster = "https://www.scifiscene.de/media/movie/king-kong/poster_default_w300_h450.jpg?1483366549",
+   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Kingkong_bigfinal1.jpg/220px-Kingkong_bigfinal1.jpg",
    blurb = "It may be 3 hours long, but it earns its runtime. A dark fantasy epic "
-        .. "about love, greed, arrogance, and nature's loss of divinity in the "
-        .. "industrial age."},
+        .. "about nature's loss of divinity in the industrial age."},
   {tier = "C", year = 2017, title = "Kong: Skull Island",
-   poster = "https://i.pinimg.com/236x/1d/a1/1e/1da11e717b22917375254d8872d0308b--skull-island-poster-art.jpg?nii=t",
+   poster = "https://upload.wikimedia.org/wikipedia/en/3/34/Kong_Skull_Island_poster.jpg",
    blurb = "Delivers on the action, but feels very generic."},
 
   -- Godzilla
@@ -167,7 +166,7 @@ return {
   {tier = "B", year = 2014, title = "Godzilla",
    poster = "https://upload.wikimedia.org/wikipedia/en/1/10/Godzilla_%282014%29_poster.jpg",
    blurb = "Establishes an artistic identity all its own, but dedicates too "
-        .. "much screentime to a handful of generic protagonists."},
+        .. "much screentime to its generic protagonists."},
   {tier = "B", year = 2019, title = "Godzilla: King of the Monsters",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Godzilla_%E2%80%93_King_of_the_Monsters_%282019%29_poster.png/220px-Godzilla_%E2%80%93_King_of_the_Monsters_%282019%29_poster.png",
    blurb = "Presents believable monsters on an incredible scale, but keeps cutting "
@@ -608,7 +607,7 @@ return {
   {tier = "A", year = 2020, title = "Love and Monsters",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/LoveAndMonstersPoster.jpeg/220px-LoveAndMonstersPoster.jpeg",
    blurb = "A coming of age story, with an immersive setting, compelling characters, "
-        .. " and no shortage of monster action."},
+        .. "and no shortage of monster action."},
   {tier = nil, year = 2020, title = "Underwater"},
   {tier = nil, year = 2021, title = "The Great Yokai War: Guardians"},
   {tier = nil, year = 2022, title = "What to Do With the Dead Kaiju?"},

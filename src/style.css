@@ -1,0 +1,29 @@
+.mainContent {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.tierRow {
+}
+
+.tierName {
+    display: inline-block;
+    text-align: center;
+}
+
+.tierContent {
+    display: inline-block;
+}
+
+.tierEntry {
+    display: inline-block;
+    padding: 4pt;
+    margin: auto;
+    width: 150pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.moviePoster {
+    width: 90%;
+}

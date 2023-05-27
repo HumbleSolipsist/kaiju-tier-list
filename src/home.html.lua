@@ -25,10 +25,11 @@ for _, tier in ipairs(tiers) do
 end
 print(ratingCount)
 
-local function tierListRow(rowTitle, rowData)
+local function tierListRow(rowTitle, rowData, bgColor)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
     movieDivs[#movieDivs + 1] = html.div{
+      id = movie.title .. " (" .. movie.year .. ")",
       class = "tierEntry",
       title = movie.blurb or movie.title,
       movie.poster
@@ -42,7 +43,9 @@ local function tierListRow(rowTitle, rowData)
   end
 
   return html.div{
+    id = rowTitle,
     class = "tierRow",
+    style = "background-color:" .. bgColor,
     html.h2{class = "tierName", rowTitle},
     html.div{class = "tierContent",
         table.unpack(movieDivs)
@@ -52,43 +55,26 @@ end
 
 return html.document{
   html.head{
-    html.style{
-      [".tierRow"] = {
-
-      },
-      [".tierName"] = {
-        display = "inline-block",
-        ["text-align"] = "center",
-      },
-      [".tierContent"] = {
-        display = "inline-block",
-      },
-      [".tierEntry"] = {
-        display = "inline-block",
-        padding = "4pt",
-        margin = "auto",
-        width = "150pt",
-        ["text-align"] = "center",
-        ["vertical-align"] = "middle"
-      },
-      [".moviePoster"] = {
-        width = "90%"
-      },
-    },
+    html.spliceStylesheet("style.css"),
   },
   html.body{
-    html.h1 "Andrew's Kaiju Tier List",
-    html.p{"My kaiju film tier list. The term \"kaiju\" is used loosely here.",
-           "There are many items in here whos placement I am uncertain of, but I",
-           "think the list is mostly a good representation of my thoughts and feelings.",
-           "There is a little blurb for each rated film which you can see by hovering",
-           "over the film's entry with you mouse (doesn't work on mobile)."},
-    html.div{style = "background-color:#e6adad", tierListRow("S", tierList["S"])},
-    html.div{style = "background-color:#e6d8ad", tierListRow("A", tierList["A"])},
-    html.div{style = "background-color:#c9e6ad", tierListRow("B", tierList["B"])},
-    html.div{style = "background-color:#ade6bb", tierListRow("C", tierList["C"])},
-    html.div{style = "background-color:#ade6e6", tierListRow("D", tierList["D"])},
-    html.div{style = "background-color:#adbbe6", tierListRow("F", tierList["F"])},
-    html.div{style = "background-color:#c9ade6", tierListRow("?", tierList["?"])},
+    html.div{
+      class = "mainContent",
+      html.h1 "Andrew's Kaiju Tier List",
+      html.p{"My kaiju film tier list. The term \"kaiju\" is used loosely here.",
+             "There are many items in here whose placement I am uncertain of, but I",
+             "think the list is mostly a good representation of my thoughts and feelings.",
+             "There is a little blurb for each rated film which you can see by hovering",
+             "over the film's entry with your mouse (doesn't work on mobile).",
+             "The fact that all the S-tier films were released after my birth is ",
+             "a coincidence, as I am immune to bias and nostalgia."},
+      html.div{tierListRow("S", tierList["S"], "#e6adad")},
+      html.div{tierListRow("A", tierList["A"], "#e6d8ad")},
+      html.div{tierListRow("B", tierList["B"], "#c9e6ad")},
+      html.div{tierListRow("C", tierList["C"], "#ade6bb")},
+      html.div{tierListRow("D", tierList["D"], "#ade6e6")},
+      html.div{tierListRow("F", tierList["F"], "#adbbe6")},
+      html.div{tierListRow("?", tierList["?"], "#c9ade6")},
+    }
   }
 }:toHtml()
