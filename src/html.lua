@@ -22,12 +22,12 @@ local function processChildElements(element, processString)
   for _, v in ipairs(element.content) do
     contentType = type(v)
     if contentType == "string" then
-      output = output .. processString(v) .. "\n"
+      output = output ..  processString(v) .. "\n"
     elseif contentType == "table" then
       output = output .. v:toHtml() .. "\n"
     end
   end
-  return output
+  return output:sub(1, -2)
 end
 
 local function elementToHtml(element)
@@ -57,7 +57,7 @@ local function elementToHtml(element)
   output = output .. ">\n"
 
   -- adding element content
-  output = output .. indent(processChildElements(element, escapeCharacters))
+  output = output .. indent(processChildElements(element, escapeCharacters)) .. "\n"
 
   -- closing the element
   output = output .. "</" .. element.tag.name .. ">"
@@ -68,7 +68,7 @@ function html.document(c)
   return {
     content = c,
     toHtml = function(document)
-      return "<!DOCTYPE html>\n" .. processChildElements(document, escapeCharacters)
+      return "<!DOCTYPE html>\n" .. processChildElements(document, escapeCharacters) .. "\n"
     end
   }
 end
@@ -77,7 +77,7 @@ function html.literal(c)
   return {
     content = c,
     toHtml = function(self)
-      return processChildElements(self, function(s) return s end)
+      return self.content
     end
   }
 end
@@ -93,20 +93,17 @@ function html.comment(c)
   }
 end
 
-function html.spliceFileLiteral(c)
+function html.spliceFileLiteral(fileName)
   return {
-    content = c,
+    fileName = fileName,
     toHtml = function(self)
-      return processChildElements(self,
-        function (fileName)
-          local output = ""
+      local output = ""
 
-          for line in io.lines(fileName or error("fileName required!")) do
-            output = output .. line .. "\n"
-          end
+      for line in io.lines(self.fileName or error("fileName required!")) do
+        output = output .. line .. "\n"
+      end
 
-          return output
-        end)
+      return output:sub(1, -2)
     end
   }
 end
