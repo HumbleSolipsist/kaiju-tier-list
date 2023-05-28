@@ -32,6 +32,7 @@ body {
 }
 
 .tierName {
+    display: inline-block;
     font-size: 22pt;
     margin: 10pt;
 }
