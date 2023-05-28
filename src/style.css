@@ -35,7 +35,7 @@ body {
     display: inline-block;
     text-align: center;
     font-size: 22pt;
-    margin-left: 5pt;
+    margin: 10pt;
 }
 
 .tierContent {
