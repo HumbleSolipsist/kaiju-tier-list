@@ -1,19 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 #sidebar {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    text-align: center;
+
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 55pt;
+    padding-top: 5%;
+}
+
+.navLink {
+    height: 5%;
+    line-height: 100%;
 }
 
 .mainContent {
+    background-color: black;
     margin-left: 55pt;
-    margin-right: 3%;
 }
 
 .tierRow {
-
+    color: black;
 }
 
 .tierName {
@@ -25,10 +41,10 @@
 .tierContent {
     margin-left: 50pt;
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .tierEntry {

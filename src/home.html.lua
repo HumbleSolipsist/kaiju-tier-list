@@ -16,6 +16,14 @@ for _, movie in ipairs(toWatch) do
   tier[#tier + 1] = movie
 end
 
+tierList["S"].color = "#e6adad"
+tierList["A"].color = "#e6d8ad"
+tierList["B"].color = "#c9e6ad"
+tierList["C"].color = "#ade6bb"
+tierList["D"].color = "#ade6e6"
+tierList["F"].color = "#adbbe6"
+tierList["?"].color = "#c9ade6"
+
 local tiers = {"S", "A", "B", "C", "D", "F"}
 local ratingCount = 0
 for _, tier in ipairs(tiers) do
@@ -25,7 +33,7 @@ for _, tier in ipairs(tiers) do
 end
 print(ratingCount)
 
-local function tierListRow(rowTitle, rowData, bgColor)
+local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
     movieDivs[#movieDivs + 1] = html.div{
@@ -45,7 +53,7 @@ local function tierListRow(rowTitle, rowData, bgColor)
   return html.div{
     id = rowTitle,
     class = "tierRow",
-    style = "background-color:" .. bgColor,
+    style = "background-color:" .. rowData.color,
     html.h2{class = "tierName", rowTitle},
     html.div{class = "tierContent",
         table.unpack(movieDivs)
@@ -53,8 +61,13 @@ local function tierListRow(rowTitle, rowData, bgColor)
   }
 end
 
-local function idLink(id)
-  return html.a{href = "#" .. id, id}
+local function tierNav(id)
+  return html.a{
+    class = "navLink",
+    style = "background-color:" .. tierList[id].color .. ";color:black",
+    href = "#" .. id,
+    id
+  }
 end
 
 return html.document{
@@ -64,20 +77,23 @@ return html.document{
   html.body{
     html.div{
       id = "sidebar",
-      html.ul{
-        html.li{html.a{href = "#", "Top"}},
-        html.li{idLink("S")},
-        html.li{idLink("A")},
-        html.li{idLink("B")},
-        html.li{idLink("C")},
-        html.li{idLink("D")},
-        html.li{idLink("F")},
-        html.li{idLink("?")},
-      }
+      html.a{
+        class = "navLink",
+        href = "#",
+        style = "color:white",
+        "Top"
+      },
+      tierNav("S"),
+      tierNav("A"),
+      tierNav("B"),
+      tierNav("C"),
+      tierNav("D"),
+      tierNav("F"),
+      tierNav("?"),
     },
     html.div{
       class = "mainContent",
-      html.h1 "Andrew's Kaiju Tier List",
+      html.h1{class = "pageTitle", "Andrew's Kaiju Tier List"},
       html.p{"My kaiju film tier list. The term \"kaiju\" is used loosely here.",
              "There are many items in here whose placement I am uncertain of, but I",
              "think the list is mostly a good representation of my thoughts and feelings.",
@@ -85,13 +101,13 @@ return html.document{
              "over the film's entry with your mouse (doesn't work on mobile).",
              "The fact that all the S-tier films were released after my birth is ",
              "a coincidence, as I am immune to bias and nostalgia."},
-      tierListRow("S", tierList["S"], "#e6adad"),
-      tierListRow("A", tierList["A"], "#e6d8ad"),
-      tierListRow("B", tierList["B"], "#c9e6ad"),
-      tierListRow("C", tierList["C"], "#ade6bb"),
-      tierListRow("D", tierList["D"], "#ade6e6"),
-      tierListRow("F", tierList["F"], "#adbbe6"),
-      tierListRow("?", tierList["?"], "#c9ade6"),
+      tierListRow("S", tierList["S"]),
+      tierListRow("A", tierList["A"]),
+      tierListRow("B", tierList["B"]),
+      tierListRow("C", tierList["C"]),
+      tierListRow("D", tierList["D"]),
+      tierListRow("F", tierList["F"]),
+      tierListRow("?", tierList["?"]),
     }
   }
 }:toHtml()
