@@ -15,7 +15,7 @@ body {
     left: 0;
     height: 100%;
     width: 55pt;
-    padding-top: 5%;
+    padding-top: 18pt;
 }
 
 .navLink {
@@ -25,6 +25,11 @@ body {
 .mainContent {
     background-color: black;
     margin-left: 55pt;
+    padding-bottom: 20pt;
+}
+
+.intro {
+    padding-right: 20%
 }
 
 .tierRow {
@@ -32,8 +37,10 @@ body {
 }
 
 .tierName {
+    position: sticky;
+    top: 5pt;
     display: inline-block;
-    font-size: 22pt;
+    font-size: 25pt;
     margin: 10pt;
 }
 
@@ -50,6 +57,8 @@ body {
     padding: 4pt;
     width: 150pt;
     text-align: center;
+    color: black;
+    text-decoration-line: none;
 }
 
 .moviePoster {

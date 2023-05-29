@@ -16,14 +16,15 @@ for _, movie in ipairs(toWatch) do
   tier[#tier + 1] = movie
 end
 
-tierList["S"].color = "#e6adad"
-tierList["A"].color = "#e6d8ad"
-tierList["B"].color = "#c9e6ad"
-tierList["C"].color = "#ade6bb"
-tierList["D"].color = "#ade6e6"
-tierList["F"].color = "#adbbe6"
-tierList["?"].color = "#c9ade6"
+tierList["S"].color = "#ffadad"
+tierList["A"].color = "#ffd6a5"
+tierList["B"].color = "#fdffb6"
+tierList["C"].color = "#caffbf"
+tierList["D"].color = "#a0c4ff"
+tierList["F"].color = "#bdb2ff"
+tierList["?"].color = "#ffc6ff"
 
+-- metadata for private use
 local tiers = {"S", "A", "B", "C", "D", "F"}
 local ratingCount = 0
 for _, tier in ipairs(tiers) do
@@ -41,8 +42,8 @@ local function tierListRow(rowTitle, rowData)
       class = "tierEntry",
       title = movie.blurb or movie.title,
       movie.poster
-      and html.img{src = movie.poster, class = "moviePoster"}
-      or html.comment("No poster."),
+        and html.img{src = movie.poster, class = "moviePoster"}
+        or html.comment("No poster."),
       html.br{},
       html.i{movie.title},
       html.br{},
@@ -71,6 +72,9 @@ local function tierNav(id)
 end
 
 return html.document{
+  html.comment{
+    "I got my rainbow from here: https://colorkit.co/palette/ffadad-ffd6a5-fdffb6-caffbf-a0c4ff-bdb2ff-ffc6ff/"
+  },
   html.head{
     html.spliceStylesheet("style.css"),
   },
@@ -94,13 +98,14 @@ return html.document{
     html.div{
       class = "mainContent",
       html.h1{class = "pageTitle", "Andrew's Kaiju Tier List"},
-      html.p{"My kaiju film tier list. The term \"kaiju\" is used loosely here.",
-             "There are many items in here whose placement I am uncertain of, but I",
-             "think the list is mostly a good representation of my thoughts and feelings.",
-             "There is a little blurb for each rated film which you can see by hovering",
-             "over the film's entry with your mouse (doesn't work on mobile).",
-             "The fact that all the S-tier films were released after my birth is ",
-             "a coincidence, as I am immune to bias and nostalgia."},
+      html.p{class = "intro",
+        "My kaiju film tier list. The term \"kaiju\" is used loosely here.",
+        "There are many items in here whose placement I am uncertain of, but I",
+        "think the list is mostly well organised.",
+        "There is a little blurb for each rated film which you can see by hovering",
+        "over the film's entry with your mouse (doesn't work on mobile).",
+        "The fact that all the S-tier films were released after my birth is ",
+        "a coincidence, as I am immune to bias and nostalgia."},
       tierListRow("S", tierList["S"]),
       tierListRow("A", tierList["A"]),
       tierListRow("B", tierList["B"]),
