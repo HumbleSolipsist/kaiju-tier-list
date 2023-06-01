@@ -548,6 +548,7 @@ return {
   {tier = nil, year = 1976, title = "At the Earth's Core"},
   {tier = nil, year = 1976, title = "The Food of the Gods"},
   {tier = nil, year = 1977, title = "The Mighty Peking Man"},
+  {tier = nil, year = 1977, title = "Goliathon"},
   {tier = "C", year = 1979, title = "Prophecy",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Prophecy_%281979_movie_poster%29.jpg/220px-Prophecy_%281979_movie_poster%29.jpg",
    blurb = "Ignoring the nonsense plot, the weak characters, and the questionable "
