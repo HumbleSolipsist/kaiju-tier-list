@@ -506,7 +506,7 @@ return {
         .. "but does get pretty preachy towards the end."},
   {tier = "C", year = 1995, title = "Attack of the 60 Foot Centerfold",
    poster = "https://upload.wikimedia.org/wikipedia/en/d/d3/Attack_of_the_60_Foot_Centerfold.jpg",
-   blurb = "Occasionally tasteless, but endearingly shameless and playful."},
+   blurb = "Occasionally tasteless, but endearingly shameless."},
   {tier = "C", year = 2012, title = "Attack of the 50 Foot Cheerleader",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Attack_Of_The_50_Foot_Cheerleader_Poster.jpg/220px-Attack_Of_The_50_Foot_Cheerleader_Poster.jpg",
    blurb = "Surprisingly tasteful, given the overt sexuality of it all."},
