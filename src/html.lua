@@ -66,7 +66,7 @@ end
 
 function html.document(c)
   return {
-    content = c,
+    content = {html.html(c)},
     toHtml = function(document)
       return "<!DOCTYPE html>\n" .. processChildElements(document, escapeCharacters) .. "\n"
     end
