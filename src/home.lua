@@ -106,6 +106,10 @@ return html.document{
       tierListRow("D", tierList["D"]),
       tierListRow("F", tierList["F"]),
       tierListRow("?", tierList["?"]),
-    }
+    },
+    html.p{
+      style="text-align:right",
+      "Last updated: " .. os.date("!%b %d, %Y - %H:%M (UTC)")
+    },
   }
 }:toHtml()
