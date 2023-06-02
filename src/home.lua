@@ -26,16 +26,6 @@ tierList["D"].color = "#a0c4ff"
 tierList["F"].color = "#bdb2ff"
 tierList["?"].color = "#ffc6ff"
 
--- metadata for private use
-local tiers = {"S", "A", "B", "C", "D", "F"}
-local ratingCount = 0
-for _, tier in ipairs(tiers) do
-  local prop = #tierList[tier]/#toWatch
-  print(tier, ("#"):rep(math.floor(prop * 200)))
-  ratingCount = ratingCount + #tierList[tier]
-end
-print(ratingCount)
-
 local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
