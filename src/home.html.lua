@@ -7,7 +7,9 @@ for i, movie in ipairs(toWatch) do
 end
 
 table.sort(toWatch, function(m1, m2)
-  return m1.year == m2.year and m1.order < m2.order or m1.year < m2.year
+  return m1.year == m2.year
+    and m1.order < m2.order
+    or (m1.year or 999999) < (m2.year or 999999)
 end)
 
 local tierList = {S = {}, A = {}, B = {}, C = {}, D = {}, F = {}, ["?"] = {}}
@@ -37,8 +39,9 @@ print(ratingCount)
 local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
+    local year = movie.year or "TBA"
     movieDivs[#movieDivs + 1] = html.div{
-      id = movie.title .. " (" .. movie.year .. ")",
+      id = movie.title .. " (" .. year .. ")",
       class = "tierEntry",
       title = movie.blurb or movie.title,
       movie.poster
@@ -47,7 +50,7 @@ local function tierListRow(rowTitle, rowData)
       html.br{},
       html.i{movie.title},
       html.br{},
-      "(" .. movie.year .. ")"
+      "(" .. year .. ")"
     }
   end
 

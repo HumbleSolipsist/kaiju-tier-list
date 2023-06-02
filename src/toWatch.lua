@@ -519,9 +519,15 @@ return {
   {tier = nil, year = 1982, title = "Q: The Winged Serpent"},
   {tier = nil, year = 1994, title = "Orochi, the Eight-Headed Dragon"},
   {tier = nil, year = 2007, title = "D-War"},
-  {tier = nil, year = 2022, title = "Dragon Lizard Lord Super Monsters"},
+  {tier = "C", year = 2022, title = "Dragon Lizard Lord Super Monsters",
+   poster = "https://img1.wsimg.com/isteam/ip/c3627ab8-fa28-42d0-bbaa-4b2a11ae3850/dlsmaller.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1300,h:800",
+   blurb = "The incomprehensible and repetitive stream of disjoint audio and video "
+        .. "acts like a hypnotist's pendulum, captivating the audience. Still, it's "
+        .. "not exactly a virtuous film."},
   {tier = nil, year = 2022, title = "Hammer of Draco Wrath of Dragons"},
   {tier = nil, year = 2023, title = "Brush of the God"},
+  {tier = nil, year = nil,  title = "Dragon Lizard Lord vs Gorilla Monkey King"},
+  {tier = nil, year = nil,  title = "Dragon Lizard Lord vs Avalon"},
 
   -- Others
   {tier = nil, year = 1955, title = "Half Human"},
