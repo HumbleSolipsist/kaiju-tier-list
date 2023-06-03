@@ -108,7 +108,7 @@ return html.document{
       tierListRow("?", tierList["?"]),
     },
     html.p{
-      style="text-align:right",
+      class = "updateLabel",
       "Last updated: " .. os.date("!%b %d, %Y - %H:%M (UTC)")
     },
   }
