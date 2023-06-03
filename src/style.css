@@ -91,6 +91,11 @@ body {
     .tierContent {
         margin-left: 0;
     }
+
+    .tierEntry {
+        width: 100pt;
+    }
+
     .updateLabel {
         text-align: right;
         padding-bottom: 24pt;
