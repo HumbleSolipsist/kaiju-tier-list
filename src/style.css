@@ -29,7 +29,7 @@ body {
 }
 
 .intro {
-    padding-right: 20%
+    max-width: 1000pt;
 }
 
 .tierRow {
