@@ -69,6 +69,8 @@ return html.document{
     "I got my rainbow from here: https://colorkit.co/palette/ffadad-ffd6a5-fdffb6-caffbf-a0c4ff-bdb2ff-ffc6ff/"
   },
   html.head{
+    html.meta{name = "viewport", content = "width=device-width, initial-scale=1"},
+    html.meta{charset = "utf-8"},
     html.spliceStylesheet("style.css"),
   },
   html.body{
