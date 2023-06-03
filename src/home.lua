@@ -83,7 +83,7 @@ return html.document{
         class = "navLink",
         href = "#",
         style = "background-color:black;color:white",
-        "Top"
+        "^"
       },
       tierNav("S"),
       tierNav("A"),
