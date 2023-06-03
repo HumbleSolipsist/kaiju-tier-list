@@ -73,11 +73,11 @@ return html.document{
   },
   html.body{
     html.div{
-      id = "sidebar",
+      class = "navBar",
       html.a{
         class = "navLink",
         href = "#",
-        style = "color:white",
+        style = "background-color:black;color:white",
         "Top"
       },
       tierNav("S"),
