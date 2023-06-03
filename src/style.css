@@ -88,6 +88,13 @@ body {
         margin-left: 0;
     }
 
+    .tierName {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        top: 0;
+    }
+
     .tierContent {
         margin-left: 0;
     }

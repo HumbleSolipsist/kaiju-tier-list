@@ -48,7 +48,10 @@ local function tierListRow(rowTitle, rowData)
     id = rowTitle,
     class = "tierRow",
     style = "background-color:" .. rowData.color,
-    html.h2{class = "tierName", rowTitle},
+    html.h2{
+      class = "tierName",
+      style = "background-color:" .. rowData.color,
+      rowTitle},
     html.div{class = "tierContent",
         table.unpack(movieDivs)
     }
