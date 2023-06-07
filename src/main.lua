@@ -1,2 +1,2 @@
-local outf <close> = io.open("home.html", "w+")
-outf:write(dofile("home.lua"))
+local outf <close> = io.open("../index.html", "w+")
+outf:write(require("index"):toHtml())

@@ -118,4 +118,4 @@ return html.document{
       "Last updated: " .. os.date("!%b %d, %Y - %H:%M (UTC)")
     },
   }
-}:toHtml()
+}
