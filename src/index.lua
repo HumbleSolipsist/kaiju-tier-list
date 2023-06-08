@@ -1,15 +1,16 @@
---local html = require "html"
-local html = dofile "html.lua"
-local toWatch = dofile "toWatch.lua"
+local html = require "html"
+local toWatch = require "toWatch"
 
 for i, movie in ipairs(toWatch) do
   movie.order = i
 end
 
 table.sort(toWatch, function(m1, m2)
-  return m1.year == m2.year
+  local year1 = type(m1.year) == "number" and m1.year or 999999
+  local year2 = type(m2.year) == "number" and m2.year or 999999
+  return year1 == year2
     and m1.order < m2.order
-    or (m1.year or 999999) < (m2.year or 999999)
+    or year1 < year2
 end)
 
 local tierList = {S = {}, A = {}, B = {}, C = {}, D = {}, F = {}, ["?"] = {}}
@@ -29,9 +30,8 @@ tierList["?"].color = "#ffc6ff"
 local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
-    local year = movie.year or "TBA"
     movieDivs[#movieDivs + 1] = html.div{
-      id = movie.title .. " (" .. year .. ")",
+      id = movie.title .. " (" .. movie.year .. ")",
       class = "tierEntry",
       title = movie.blurb or movie.title,
       movie.poster
@@ -40,7 +40,7 @@ local function tierListRow(rowTitle, rowData)
       html.br{},
       html.i{movie.title},
       html.br{},
-      "(" .. year .. ")"
+      "(" .. movie.year .. ")"
     }
   end
 

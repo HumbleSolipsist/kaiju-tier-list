@@ -186,7 +186,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Godzilla_anime_design_reveal.jpg/220px-Godzilla_anime_design_reveal.jpg",
    blurb = "Cool visual style and excellent worldbuilding are dragged down by an "
         .. "almost insufferable protagonist."},
-  {tier = "S", year = 2018, title = "Godzilla: City on the Edge of Battle",
+  {tier = "A", year = 2018, title = "Godzilla: City on the Edge of Battle",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Godzilla_Anime_2_Poster.jpg/220px-Godzilla_Anime_2_Poster.jpg",
    blurb = "Takes the awful protagonist from Planet of Monsters and develops him "
         .. "into the most nuanced character in the franchise."},
@@ -283,7 +283,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Gamera-3-poster.jpg/220px-Gamera-3-poster.jpg",
    blurb = "The most nuanced take on Gamera, and with fantastic special effects, "
         .. "but confusing and occasionally bland."},
-  {tier = "A", year = 2006, title = "Gamera the Brave",
+  {tier = "S", year = 2006, title = "Gamera the Brave",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Gamerthebraveposter.jpg/220px-Gamerthebraveposter.jpg",
    blurb = "A deeply personal and unique perspective on a classic-style kaiju story, "
         .. "as much about grief after the death of a loved one as it is about monsters."},
@@ -369,8 +369,8 @@ return {
         .. "has a hypnotic effect, captivating the audience. Still, it's "
         .. "not exactly a virtuous film."},
   {tier = nil, year = 2022, title = "Hammer of Draco Wrath of Dragons"},
-  {tier = nil, year = nil,  title = "Dragon Lizard Lord vs Gorilla Monkey King"},
-  {tier = nil, year = nil,  title = "Dragon Lizard Lord vs Avalon"},
+  {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Gorilla Monkey King"},
+  {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Avalon"},
 
   -- Misc
   -- Dinosaur-like
@@ -586,7 +586,7 @@ return {
    blurb = "Tense, disturbing, tragic, and with something to say (although it's "
         .. "not really clear what)."},
   {tier = nil, year = 2006, title = "Mammoth"},
-  {tier = "S", year = 2008, title = "Cloverfield",
+  {tier = "A", year = 2008, title = "Cloverfield",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Cloverfield_theatrical_poster.jpg/220px-Cloverfield_theatrical_poster.jpg",
    blurb = "A character-driven horror film with fantastic acting, cool monsters, "
         .. "and some genuine scares."},
@@ -596,7 +596,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Monsters-vs-aliens-poster.jpg/220px-Monsters-vs-aliens-poster.jpg",
    blurb = "Immature, unfunny, but cute enough to be enjoyable."},
   {tier = nil, year = 2009, title = "Gehara: The Dark & Long Hair Monster"},
-  {tier = "A", year = 2010, title = "Trollhunter",
+  {tier = "S", year = 2010, title = "Trollhunter",
    poster = "https://upload.wikimedia.org/wikipedia/en/1/1e/TrollHunter.jpg",
    blurb = "Original, human, and able to engender sympathy for the monsters without "
         .. "ever getting sappy."},
@@ -604,6 +604,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Grabbers.jpg/220px-Grabbers.jpg",
    blurb = "A thoroughly entertaining horror-comedy, marred only by a romance subplot "
         .. "that feels forced."},
+  {tier = nil, year = 2014, title = "GODZILLA BATTLE ROYALE!!!"},
   {tier = "A", year = 2016, title = "Colossal",
    poster = "https://upload.wikimedia.org/wikipedia/en/3/33/Colossal_%28film%29.png",
    blurb = "Darker than I expected, and in different ways than I would have guessed, "
