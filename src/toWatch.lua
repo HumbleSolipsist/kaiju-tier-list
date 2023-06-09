@@ -368,7 +368,9 @@ return {
    blurb = "The incomprehensible and repetitive stream of disjoint audio and video "
         .. "has a hypnotic effect, captivating the audience. Still, it's "
         .. "not exactly a virtuous film."},
-  {tier = nil, year = 2022, title = "Hammer of Draco Wrath of Dragons"},
+  {tier = "F", year = 2022, title = "Hammer of Draco Wrath of Dragons",
+   poster = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Q2PG436HIfNis_Caig7KNAHaK_%26pid%3DApi&f=1&ipt=d92ccbfb2d305d9fa9c37ec236e29aac30ddd79aa98ab9874179a73ca75cdab0&ipo=images",
+   blurb = "Well, here it is. The worst feature film I've ever seen."},
   {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Gorilla Monkey King"},
   {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Avalon"},
 
