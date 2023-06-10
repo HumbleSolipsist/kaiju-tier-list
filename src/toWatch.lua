@@ -388,6 +388,7 @@ return {
   {tier = nil, year = 1955, title = "King Dinosaur"},
   {tier = nil, year = 1956, title = "The Beast of Hollow Mountain"},
   {tier = nil, year = 1956, title = "Rodan"},
+  {tier = nil, year = 1957, title = "The Land Unknown"},
   {tier = nil, year = 1958, title = "Varan"},
   {tier = nil, year = 1959, title = "The Giant Behemoth"},
   {tier = nil, year = 1960, title = "The Lost World"},
@@ -403,6 +404,8 @@ return {
   {tier = nil, year = 1974, title = "The Land That Time Forgot"},
   {tier = nil, year = 1977, title = "The Crater Lake Monster"},
   {tier = nil, year = 1977, title = "Legend of Dinosaurs and Monster Birds"},
+  {tier = nil, year = 1977, title = "The Last Dinosaur"},
+  {tier = nil, year = 1983, title = "Attack of the Super Monsters"},
   {tier = nil, year = 1993, title = "Jurassic Park"},
   {tier = "D", year = 1994, title = "Dinosaur Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Dinosaur_island_1994.jpg/220px-Dinosaur_island_1994.jpg",
@@ -448,6 +451,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/It_Came_From_Beneath_The_Sea_poster.jpg/220px-It_Came_From_Beneath_The_Sea_poster.jpg",
    blurb = "Harryhousen's octopus is great, but there's more cringe-worthy romance"
         .. " than monster."},
+  {tier = nil, year = 1956, title = "Moby Dick"},
   {tier = nil, year = 1957, title = "Attack of the Crab Monsters"},
   {tier = "D", year = 1957, title = "The Monster that Challenged the World",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Monsterchallengedtheworld.jpg/220px-Monsterchallengedtheworld.jpg",
@@ -473,16 +477,19 @@ return {
    blurb = "The sharp contrast between the serious, competent actors, and the bizarre "
         .. "off-brand muppet of a monster makes this film unintentionally hilarious."},
   {tier = nil, year = 1957, title = "The Mysterians"},
+  {tier = nil, year = 1957, title = "Kronos"},
   {tier = nil, year = 1964, title = "Dogora"},
   {tier = nil, year = 1967, title = "Space Monster, Wangmagwi"},
   {tier = nil, year = 1967, title = "The X from Outer Space"},
   {tier = nil, year = 1995, title = "Zarkorr: The Invader"},
+  {tier = nil, year = 1995, title = "Neon Genesis Evangelion"},
   {tier = "B", year = 2010, title = "Monsters",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/MonstersUK.jpg/220px-MonstersUK.jpg",
    blurb = "Monsters is carried almost entirely on the shoulders of its fantastic actors."},
   {tier = nil, year = 2014, title = "Monsters: Dark Continent"},
 
   -- Giant Men
+  {tier = nil, year = 1957, title = "The Cyclops"},
   {tier = nil, year = 1957, title = "The Amazing Colossal Man"},
   {tier = nil, year = 1958, title = "War of the Colossal Beast"},
   {tier = nil, year = 1976, title = "War God"},
@@ -508,6 +515,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Attack_of_the_50_ft_Woman_%281993_film%29.jpg/220px-Attack_of_the_50_ft_Woman_%281993_film%29.jpg",
    blurb = "Successfully utilizes the giantess as a symbol of female empowerment, "
         .. "but does get pretty preachy towards the end."},
+  {tier = nil, year = 1994, title = "Attack of the 50 Foot Hooker"},
   {tier = "C", year = 1995, title = "Attack of the 60 Foot Centerfold",
    poster = "https://upload.wikimedia.org/wikipedia/en/d/d3/Attack_of_the_60_Foot_Centerfold.jpg",
    blurb = "Occasionally tasteless, but endearingly shameless."},
@@ -535,6 +543,7 @@ return {
   {tier = nil, year = 2023, title = "Brush of the God"},
 
   -- Others
+  {tier = nil, year = 1929, title = "The Mysterious Island"},
   {tier = nil, year = 1955, title = "Half Human"},
   {tier = "C", year = 1957, title = "The Monolith Monsters",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/The_Monolith_Monsters.jpg/220px-The_Monolith_Monsters.jpg",
@@ -542,6 +551,7 @@ return {
         .. "execution."},
   {tier = nil, year = 1958, title = "The H-Man"},
   {tier = nil, year = 1959, title = "The Giant Gila Monster"},
+  {tier = nil, year = 1958, title = "The Strange World of Planet X"},
   {tier = "C", year = 1959, title = "Caltiki - The Immortal Monster",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Caltiki_%E2%80%93_The_Immortal_Monster_poster.jpg/220px-Caltiki_%E2%80%93_The_Immortal_Monster_poster.jpg",
    blurb = "The special effects work is quite impressive for a 1959 film from "
@@ -556,6 +566,8 @@ return {
   {tier = nil, year = 1966, title = "War of the Gargantuas"},
   {tier = nil, year = 1968, title = "Phantom Monster Agon"},
   {tier = nil, year = 1967, title = "Gappa, the Triphibian Monster"},
+  {tier = nil, year = 1969, title = "Latitude Zero"},
+  {tier = nil, year = 1970, title = "Equinox"},
   {tier = nil, year = 1970, title = "Space Amoeba"},
   {tier = nil, year = 1972, title = "Daigoro vs Goliath"},
   {tier = nil, year = 1976, title = "At the Earth's Core"},
@@ -581,6 +593,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Princess_Mononoke_Japanese_poster.png/220px-Princess_Mononoke_Japanese_poster.png",
    blurb = "Yes, this is a kaiju film (and a damn good one!). I will die on this hill."},
   {tier = nil, year = 2000, title = "Sakuya, The Slayer of Demons"},
+  {tier = nil, year = 2004, title = "Monster Island"},
   {tier = nil, year = 2005, title = "The Great Yokai War"},
   {tier = nil, year = 2005, title = "Negadon: The Monster from Mars"},
   {tier = "A", year = 2006, title = "The Host",
