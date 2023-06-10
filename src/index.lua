@@ -95,7 +95,7 @@ return html.document{
     },
     html.div{
       class = "mainContent",
-      html.h1{class = "pageTitle", "Andrew's Kaiju Tier List"},
+      html.h1{class = "pageTitle", "Andrew's Kaiju Film Tier List"},
       html.p{class = "intro",
         "My kaiju film tier list. The term \"kaiju\" is used loosely here.",
         "There are many items in here whose placement I am uncertain of, but I",
