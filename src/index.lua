@@ -30,6 +30,9 @@ tierList["?"].color = "#ffc6ff"
 local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
+    if movie.year == nil then
+      print(movie.title)
+    end
     movieDivs[#movieDivs + 1] = html.div{
       id = movie.title .. " (" .. movie.year .. ")",
       class = "tierEntry",

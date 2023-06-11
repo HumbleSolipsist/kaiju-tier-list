@@ -509,7 +509,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Thirtyfootbride.jpg/220px-Thirtyfootbride.jpg",
    blurb = "Lou Costello's performance lacks his signature high-energy goofery, "
         .. "and he clearly struggles playing the straight man. Other "
-        .. "than that, it's a sexist and outdated movie about a man learning "
+        .. "than that, it's a sexist and outyeard movie about a man learning "
         .. "to control his wife."},
   {tier = "B", year = 1993, title = "Attack of the 50 Foot Woman",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Attack_of_the_50_ft_Woman_%281993_film%29.jpg/220px-Attack_of_the_50_ft_Woman_%281993_film%29.jpg",
@@ -606,6 +606,7 @@ return {
    blurb = "A character-driven horror film with fantastic acting, cool monsters, "
         .. "and some genuine scares."},
   {tier = nil, year = 2008, title = "Monster"},
+  {tier = nil, year = 2009, title = "Mighty Lady Sparkle"},
   {tier = nil, year = 2009, title = "Bakunyu Sentai Pairanger"},
   {tier = "C", year = 2009, title = "Monsters vs Aliens",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Monsters-vs-aliens-poster.jpg/220px-Monsters-vs-aliens-poster.jpg",
@@ -615,11 +616,11 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/1/1e/TrollHunter.jpg",
    blurb = "Original, human, and able to engender sympathy for the monsters without "
         .. "ever getting sappy."},
+  {tier = nil, year = 2011, title = "Behemoth"},
   {tier = "B", year = 2012, title = "Grabbers",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Grabbers.jpg/220px-Grabbers.jpg",
    blurb = "A thoroughly entertaining horror-comedy, marred only by a romance subplot "
         .. "that feels forced."},
-  {tier = nil, year = 2014, title = "GODZILLA BATTLE ROYALE!!!"},
   {tier = "A", year = 2016, title = "Colossal",
    poster = "https://upload.wikimedia.org/wikipedia/en/3/33/Colossal_%28film%29.png",
    blurb = "Darker than I expected, and in different ways than I would have guessed, "
@@ -627,11 +628,20 @@ return {
   {tier = nil, year = 2016, title = "A Monster Calls"},
   {tier = nil, year = 2017, title = "I Kill Giants"},
   {tier = nil, year = 2017, title = "The Ritual"},
+  {tier = nil, year = 2017, title = "Boar"},
+  {tier = nil, year = 2018, title = "Koujin"},
   {tier = "C", year = 2018, title = "Rampage",
    poster = "https://upload.wikimedia.org/wikipedia/en/6/6b/Rampage_teaser_film_poster.jpg",
    blurb = "It's a bit disappointing to see the goofy video game "
         .. "classic Rampage converted into such a by-the-numbers blockbuster, but "
         .. "I'd be lying if I said I didn't have fun."},
+  {tier = nil, year = 2018, title = "Lake Michigan Monster"},
+  {tier = nil, year = 2018, title = "The Great Buddha: Arrival"},
+  {tier = nil, year = 2019, title = "It Wants Blood!"},
+  {tier = nil, year = 2019, title = "Cencoroll Connect"},
+  {tier = nil, year = 2019, title = "Notzilla"},
+  {tier = nil, year = 2019, title = "Yagon the Water Monster"},
+  {tier = nil, year = 2020, title = "The Great Beast of Shennong"},
   {tier = nil, year = 2020, title = "Nezura 1964"},
   {tier = "A", year = 2020, title = "Love and Monsters",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/LoveAndMonstersPoster.jpeg/220px-LoveAndMonstersPoster.jpeg",
