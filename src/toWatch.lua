@@ -16,7 +16,7 @@ return {
    blurb = "This retelling changes the plot in some truly idiotic ways, and far "
         .. "too much focus is placed on the sexual aspects of the story at the expense "
         .. "of the action."},
-  {tier = "D", year = 1986, title = "King Kong Lives",
+  {tier = "E", year = 1986, title = "King Kong Lives",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Kingkonglives.jpg/220px-Kingkonglives.jpg",
    blurb = "He's alive and he's horny, what more could you ask for? A lot, actually. "
         .. "On the bright side, you get to see Linda Hamilton's right nipple for a frame or two."},
@@ -38,7 +38,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gojira_1954_Japanese_poster.jpg/220px-Gojira_1954_Japanese_poster.jpg",
    blurb = "An evocative and aggressively political tragedy. Still one of the best "
         .. "examples of monster-as-a-metaphor in film."},
-  {tier = "F", year = 1955, title = "Godzilla Raids Again",
+  {tier = "E", year = 1955, title = "Godzilla Raids Again",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Gojira_no_gyakushu_poster.jpg/220px-Gojira_no_gyakushu_poster.jpg",
    blurb = "A frankly pathetic sequel, lacking both heart and flare."},
   {tier = "D", year = 1956, title = "Godzilla: King of the Monsters!",
@@ -74,7 +74,7 @@ return {
    blurb = "A mashup of every monster they had sitting in the closet at time of "
         .. "shooting. The final fight is too one-sided to be tense, but it is "
         .. "fun to watch all the other kaiju kicking the shit out of Ghidorah."},
-  {tier = "D", year = 1969, title = "All Monsters Attack",
+  {tier = "E", year = 1969, title = "All Monsters Attack",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Godzilla%27s_Revenge_1969.jpg/220px-Godzilla%27s_Revenge_1969.jpg",
    blurb = "A film about a small boy learning how to stand up to bullies. Not horribly "
         .. "made, but lacking anything to appeal to adults."},
@@ -85,7 +85,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Godzilla_vs_Gigan_1972.jpg/220px-Godzilla_vs_Gigan_1972.jpg",
    blurb = "Put me in mind of Scooby Doo; a goofy story about a rag-tag team of young "
         .. "adults investigating the Mysterious Upcoming Amusement Park(tm)."},
-  {tier = "F", year = 1973, title = "Godzilla vs Megalon",
+  {tier = "E", year = 1973, title = "Godzilla vs Megalon",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Godzilla_vs._Megalon_%281973%29_poster.jpg/220px-Godzilla_vs._Megalon_%281973%29_poster.jpg",
    blurb = "About as nonsensical as they come, and without enough action to even "
         .. "pass as dumb fun. Reuses a lot of footage from prior films."},
@@ -258,7 +258,7 @@ return {
    blurb = "Jiger is my least favourite Gamera kaiju, and the child protags are "
         .. "mildly annoying, but it's pretty funny in places and the action doesn't "
         .. "suck. Conspicuous sponsorship from Expo '70."},
-  {tier = "D", year = 1971, title = "Gamera vs Zigra",
+  {tier = "E", year = 1971, title = "Gamera vs Zigra",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Gamera_vs_zigra_poster.gif/220px-Gamera_vs_zigra_poster.gif",
    blurb = "The message about respecting the ocean is undercut by the scene where "
         .. "Gamera plays his own theme-tune on Zigra's spine like it's a xylophone "
@@ -332,7 +332,7 @@ return {
    poster = "https://cdn.shopify.com/s/files/1/0014/4500/3324/products/MVD2836D_95x95@2x.jpg?v=1580345957",
    blurb = "An all-around terrible alternate-history film that reaks of Japanese "
         .. "military propaganda."},
-  {tier = "D", year = 2009, title = "Raiga: God of Monsters",
+  {tier = "E", year = 2009, title = "Raiga: God of Monsters",
    poster = "https://cdn.shopify.com/s/files/1/0014/4500/3324/products/MVD3152D_95x95@2x.jpg?v=1580346098",
    blurb = "The plot is barely present, the characters are boring, and the CGI sucks, "
         .. "but the kaiju suit is decent."},
@@ -353,10 +353,9 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
    blurb = "The best fight scenes in the genre, a well developed setting, and an "
         .. "impressive attention to detail make this a distinct favourite of mine."},
-  {tier = "C", year = 2018, title = "Pacific Rim: Uprising",
+  {tier = "D", year = 2018, title = "Pacific Rim: Uprising",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Pacific_Rim_-_Uprising_%282018_film%29.jpg/220px-Pacific_Rim_-_Uprising_%282018_film%29.jpg",
-   blurb = "It is a testament to Pacific Rim's incredibly high quality that its sequel "
-        .. "can be inferior in every way and still end up being passable."},
+   blurb = "Feels more like a rip-off of Pacific Rim than a sequel."},
   {tier = "D", year = 2021, title = "Pacific Rim: The Black",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Pacific_Rim_The_Black_poster.jpeg/220px-Pacific_Rim_The_Black_poster.jpeg",
    blurb = "I've given up on the Pacific Rim franchise. The horrible characters "
@@ -407,12 +406,12 @@ return {
   {tier = nil, year = 1977, title = "The Last Dinosaur"},
   {tier = nil, year = 1983, title = "Attack of the Super Monsters"},
   {tier = nil, year = 1993, title = "Jurassic Park"},
-  {tier = "D", year = 1994, title = "Dinosaur Island",
+  {tier = "E", year = 1994, title = "Dinosaur Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Dinosaur_island_1994.jpg/220px-Dinosaur_island_1994.jpg",
    blurb = "Trashy and ridiculous. Leans heavily on sex-appeal, terrible one-liners "
         .. "abound, but fun in places anyway. Probably because of the boobies."},
   {tier = nil, year = 2008, title = "Loch Ness Terror"},
-  {tier = "F", year = 2010, title = "Dinocroc vs Supergator",
+  {tier = "E", year = 2010, title = "Dinocroc vs Supergator",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Dinocroc_vs._Supergator_DVD.jpg/220px-Dinocroc_vs._Supergator_DVD.jpg",
    blurb = "It's aware of it's own shittiness, but does nothing worthwhile with that "
         .. "knowledge."},
@@ -453,7 +452,7 @@ return {
         .. " than monster."},
   {tier = nil, year = 1956, title = "Moby Dick"},
   {tier = nil, year = 1957, title = "Attack of the Crab Monsters"},
-  {tier = "D", year = 1957, title = "The Monster that Challenged the World",
+  {tier = "E", year = 1957, title = "The Monster that Challenged the World",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Monsterchallengedtheworld.jpg/220px-Monsterchallengedtheworld.jpg",
    blurb = "\"There's several monsters and they barely challenge one town.\" "
         .. "- IMDB user 13FunBags"},
@@ -527,7 +526,7 @@ return {
    blurb = "A soft-core porn parody that lacks both laughs and sex-appeal. The "
         .. "vile characters and horrible acting take the experience from boring "
         .. "to unpleasant."},
-  {tier = "D", year = 2022, title = "Giantess Battle Attack",
+  {tier = "E", year = 2022, title = "Giantess Battle Attack",
    poster = "https://m.media-amazon.com/images/I/61YbSZ3HSJL._SX300_SY300_QL70_ML2_.jpg",
    blurb = "Completely idiotic and immature, but it did manage to wring a few "
         .. "reluctant laughs out of me."},
@@ -552,7 +551,7 @@ return {
   {tier = nil, year = 1958, title = "The H-Man"},
   {tier = nil, year = 1959, title = "The Giant Gila Monster"},
   {tier = nil, year = 1958, title = "The Strange World of Planet X"},
-  {tier = "C", year = 1959, title = "Caltiki - The Immortal Monster",
+  {tier = "D", year = 1959, title = "Caltiki - The Immortal Monster",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Caltiki_%E2%80%93_The_Immortal_Monster_poster.jpg/220px-Caltiki_%E2%80%93_The_Immortal_Monster_poster.jpg",
    blurb = "The special effects work is quite impressive for a 1959 film from "
         .. "Italy, but it was clearly very low budget and mostly stuck to standard "
@@ -574,7 +573,7 @@ return {
   {tier = nil, year = 1976, title = "The Food of the Gods"},
   {tier = nil, year = 1977, title = "The Mighty Peking Man"},
   {tier = nil, year = 1977, title = "Goliathon"},
-  {tier = "C", year = 1979, title = "Prophecy",
+  {tier = "D", year = 1979, title = "Prophecy",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Prophecy_%281979_movie_poster%29.jpg/220px-Prophecy_%281979_movie_poster%29.jpg",
    blurb = "Ignoring the nonsense plot, the weak characters, and the questionable "
         .. "casting, Prophecy at least does an excellent job of establishing a tense "
@@ -608,9 +607,9 @@ return {
   {tier = nil, year = 2008, title = "Monster"},
   {tier = nil, year = 2009, title = "Mighty Lady Sparkle"},
   {tier = nil, year = 2009, title = "Bakunyu Sentai Pairanger"},
-  {tier = "C", year = 2009, title = "Monsters vs Aliens",
+  {tier = "D", year = 2009, title = "Monsters vs Aliens",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Monsters-vs-aliens-poster.jpg/220px-Monsters-vs-aliens-poster.jpg",
-   blurb = "Immature, unfunny, but cute enough to be enjoyable."},
+   blurb = "Immature, unfunny, but cute enough."},
   {tier = nil, year = 2009, title = "Gehara: The Dark & Long Hair Monster"},
   {tier = "S", year = 2010, title = "Trollhunter",
    poster = "https://upload.wikimedia.org/wikipedia/en/1/1e/TrollHunter.jpg",

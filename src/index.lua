@@ -13,19 +13,31 @@ table.sort(toWatch, function(m1, m2)
     or year1 < year2
 end)
 
-local tierList = {S = {}, A = {}, B = {}, C = {}, D = {}, F = {}, ["?"] = {}}
+local tierList = {
+  S = {color = "#ffadad"},
+  A = {color = "#ffd6a5"},
+  B = {color = "#fdffb6"},
+  C = {color = "#caffbf"},
+  D = {color = "#9bf6ff"},
+  E = {color = "#a0c4ff"},
+  F = {color = "#bdb2ff"},
+  ["?"] = {color = "#ffc6ff"}
+}
 for _, movie in ipairs(toWatch) do
   local tier = tierList[movie.tier or "?"] or error("no such tier: " .. movie.tier)
   tier[#tier + 1] = movie
 end
 
-tierList["S"].color = "#ffadad"
-tierList["A"].color = "#ffd6a5"
-tierList["B"].color = "#fdffb6"
-tierList["C"].color = "#caffbf"
-tierList["D"].color = "#a0c4ff"
-tierList["F"].color = "#bdb2ff"
-tierList["?"].color = "#ffc6ff"
+local tiers = {"S", "A", "B", "C", "D", "E", "F"}
+for _, tier in ipairs(tiers) do
+  local prop = #tierList[tier]/#toWatch
+  local printCount = math.floor(prop * 200)
+  io.write(tier, " ")
+  for i = 1, printCount do
+    io.write("#")
+  end
+  io.write("\n")
+end
 
 local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
@@ -72,7 +84,7 @@ end
 
 return html.document{
   html.comment{
-    "I got my rainbow from here: https://colorkit.co/palette/ffadad-ffd6a5-fdffb6-caffbf-a0c4ff-bdb2ff-ffc6ff/"
+    "I got my rainbow from here: https://colorkit.co/palette/ffadad-ffd6a5-fdffb6-caffbf-9bf6ff-a0c4ff-bdb2ff-ffc6ff/"
   },
   html.head{
     html.meta{name = "viewport", content = "width=device-width, initial-scale=1"},
@@ -93,6 +105,7 @@ return html.document{
       tierNav("B"),
       tierNav("C"),
       tierNav("D"),
+      tierNav("E"),
       tierNav("F"),
       tierNav("?"),
     },
@@ -113,6 +126,7 @@ return html.document{
       tierListRow("B", tierList["B"]),
       tierListRow("C", tierList["C"]),
       tierListRow("D", tierList["D"]),
+      tierListRow("E", tierList["E"]),
       tierListRow("F", tierList["F"]),
       tierListRow("?", tierList["?"]),
     },
