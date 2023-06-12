@@ -337,7 +337,7 @@ return {
    blurb = "The plot is barely present, the characters are boring, and the CGI sucks, "
         .. "but the kaiju suit is decent."},
   {tier = "D", year = 2021, title = "God Raiga vs King Ohga: War of the Monsters",
-   poster = "https://cdn.shopify.com/s/files/1/0014/4500/3324/products/91YFZpoISqL._SL1500_95x95@2x.jpg?v=1619633584",
+   poster = "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_496,q_80,w_334/514928b057425b95d1c67779e69cfc6c.jpg",
    blurb = "As simple as the plot was, it was so bizarre in presentation that it "
         .. "was hard to follow nonetheless. Terrible in a way that was oddly "
         .. "captivating."},
