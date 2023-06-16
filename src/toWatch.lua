@@ -296,7 +296,7 @@ return {
         .. "but there are a lot of misses."},
   {tier = "B", year = 1966, title = "Ultraman",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ultraman_%281966%29_HD_Title_Card.png/220px-Ultraman_%281966%29_HD_Title_Card.png",
-   blurb = "A bizarre and action-packed tokusatsu classic!"},
+   blurb = "Tonally eclectic, often absurd, but consistently entertaining!"},
   {tier = nil, year = 1967, title = "Ultraseven"},
   {tier = nil, year = 1971, title = "Return of Ultraman"},
   {tier = nil, year = 1996, title = "Ultraman: Tiga"},
