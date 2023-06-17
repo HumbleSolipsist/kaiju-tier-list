@@ -93,7 +93,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Godzilla_vs_Mechagodzilla_1974.jpg/220px-Godzilla_vs_Mechagodzilla_1974.jpg",
    blurb = "Mechagodzilla is spectacular in a fight, owing to his myriad weapons "
         .. "and gadgets. The writing is uncharacteristically strong as well."},
-  {tier = "C", year = 1975, title = "The Terror of Mechagodzilla",
+  {tier = "C", year = 1975, title = "Terror of Mechagodzilla",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Terror_of_MechaGodzilla_1975.jpg/220px-Terror_of_MechaGodzilla_1975.jpg",
    blurb = "Titanosaurus is pretty cool, I guess."},
 
@@ -429,7 +429,7 @@ return {
   {tier = "C", year = 1954, title = "Them!",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Them02.jpg/220px-Them02.jpg",
    blurb = "Conventional 50s sci-fi fare - irradiated ants grow big (oh no!)."},
-  {tier = "C", year = 1955, title = "Tarantula!",
+  {tier = "C", year = 1955, title = "Tarantula",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tarantula_1955.jpg/220px-Tarantula_1955.jpg",
    blurb = "Conventional 50s sci-fi fare - irradiated spider grows big (oh no!)."},
   {tier = nil, year = 1957, title = "Beginning of the End"},
