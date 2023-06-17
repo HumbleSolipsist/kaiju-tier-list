@@ -46,7 +46,7 @@ return {
    blurb = "Don't expect a localization of the OG Godzilla, this is so heavily "
         .. "edited that it's basically a new film that just scrapped Godzilla for "
         .. "stock footage."},
-  {tier = "C", year = 1963, title = "King Kong vs Godzilla",
+  {tier = "C", year = 1962, title = "King Kong vs Godzilla",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/King_Kong_vs._Godzilla.png/220px-King_Kong_vs._Godzilla.png",
    blurb = "A slapstick reimagining of the titular beasts - silly, but pretty funny."},
   {tier = "C", year = 1964, title = "Mothra vs Godzilla",
@@ -98,7 +98,7 @@ return {
    blurb = "Titanosaurus is pretty cool, I guess."},
 
   -- Heisei
-  {tier = "D", year = 1985, title = "The Return of Godzilla",
+  {tier = "D", year = 1984, title = "The Return of Godzilla",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Godzilla_1984.jpg/220px-Godzilla_1984.jpg",
    blurb = "A return to a darker, more realistic, more adult take on Godzilla. Unfortunately, "
         .. "the writing seems to have retained the silliness of the Showa films, so "
