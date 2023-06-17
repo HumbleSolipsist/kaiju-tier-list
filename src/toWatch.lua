@@ -506,18 +506,18 @@ return {
    blurb = "The OG giantess film! This movie has the worst special effects I've "
         .. "ever seen in a feature-length film, and the story doesn't make a lot "
         .. "of sense, but it's kind-of endearing in it's own way."},
-  {tier = "D", year = 1959, title = "The 30-Foot Bride of Candy Rock",
+  {tier = "E", year = 1959, title = "The 30-Foot Bride of Candy Rock",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Thirtyfootbride.jpg/220px-Thirtyfootbride.jpg",
    blurb = "Lou Costello's performance lacks his signature high-energy goofery, "
         .. "and he clearly struggles playing the straight man. Other "
-        .. "than that, it's a sexist and outyeard movie about a man learning "
+        .. "than that, it's a sexist and outdated movie about a man learning "
         .. "to control his wife."},
   {tier = "B", year = 1993, title = "Attack of the 50 Foot Woman",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Attack_of_the_50_ft_Woman_%281993_film%29.jpg/220px-Attack_of_the_50_ft_Woman_%281993_film%29.jpg",
    blurb = "Successfully utilizes the giantess as a symbol of female empowerment, "
         .. "but does get pretty preachy towards the end."},
   {tier = nil, year = 1994, title = "Attack of the 50 Foot Hooker"},
-  {tier = "C", year = 1995, title = "Attack of the 60 Foot Centerfold",
+  {tier = "D", year = 1995, title = "Attack of the 60 Foot Centerfold",
    poster = "https://upload.wikimedia.org/wikipedia/en/d/d3/Attack_of_the_60_Foot_Centerfold.jpg",
    blurb = "Occasionally tasteless, but endearingly shameless."},
   {tier = "C", year = 2012, title = "Attack of the 50 Foot Cheerleader",
