@@ -276,9 +276,9 @@ return {
         .. "but the experience is dragged down by monotonic acting."},
   {tier = "A", year = 1996, title = "Gamera 2: Attack of Legion",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Gamera_2_Theatrical_Poster.jpg/220px-Gamera_2_Theatrical_Poster.jpg",
-   blurb = "The focus on kaiju at the expense of the human characters will no doubt "
-        .. "be offputting to some audiences, but this film has some of the best "
-        .. "realized monsters in the genre. A real visual pleasure."},
+   blurb = "The lack of human character development will be offputting to some, but"
+        .. "this film has some of the best realized monsters in the genre. A real "
+        .. "visual pleasure."},
   {tier = "B", year = 1999, title = "Gamera 3: Revenge of Iris",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Gamera-3-poster.jpg/220px-Gamera-3-poster.jpg",
    blurb = "The most nuanced take on Gamera, and with fantastic special effects, "
@@ -360,8 +360,9 @@ return {
    blurb = "Feels more like a rip-off of Pacific Rim than a sequel."},
   {tier = "D", year = 2021, title = "Pacific Rim: The Black",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Pacific_Rim_The_Black_poster.jpeg/220px-Pacific_Rim_The_Black_poster.jpeg",
-   blurb = "I've given up on the Pacific Rim franchise. The horrible characters "
-        .. "make this downright unpleasant to watch at times."},
+   blurb = "Constantly bleak and negative, with no levity to speak of. The kaiju "
+        .. "are treated more like RPG random encounters than unique and powerful "
+        .. "beings."},
 
   -- Dragon Lizard Lord Super Monsters
   {tier = "C", year = 2022, title = "Dragon Lizard Lord Super Monsters",
@@ -371,7 +372,7 @@ return {
         .. "not exactly a virtuous film."},
   {tier = "F", year = 2022, title = "Hammer of Draco Wrath of Dragons",
    poster = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Q2PG436HIfNis_Caig7KNAHaK_%26pid%3DApi&f=1&ipt=d92ccbfb2d305d9fa9c37ec236e29aac30ddd79aa98ab9874179a73ca75cdab0&ipo=images",
-   blurb = "Well, here it is. The worst feature film I've ever seen."},
+   blurb = "Hideous, incoherent, unfunny, grating. The worst feature film I've ever seen."},
   {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Gorilla Monkey King"},
   {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Avalon"},
 
@@ -611,7 +612,7 @@ return {
   {tier = nil, year = 2009, title = "Bakunyu Sentai Pairanger"},
   {tier = "D", year = 2009, title = "Monsters vs Aliens",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Monsters-vs-aliens-poster.jpg/220px-Monsters-vs-aliens-poster.jpg",
-   blurb = "Immature, unfunny, but cute enough."},
+   blurb = "Immature, unfunny, but kinda cute, and the action doesn't suck."},
   {tier = nil, year = 2009, title = "Gehara: The Dark & Long Hair Monster"},
   {tier = "S", year = 2010, title = "Trollhunter",
    poster = "https://upload.wikimedia.org/wikipedia/en/1/1e/TrollHunter.jpg",
