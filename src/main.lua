@@ -1,11 +1,14 @@
 local index <close> = io.open("../index.html", "w+")
-index:write(require("index"):toHtml())
+local s = require("index"):toHtml()
+index:write(s)
 index:close()
 
 local watchedFilmsCSV <close> = io.open("../watchedFilms.csv", "w+")
-watchedFilmsCSV :write(require("watchedFilmsCSV"))
+s = require("watchedFilmsCSV")
+watchedFilmsCSV:write(s)
 watchedFilmsCSV:close()
 
 local allFilmsCSV <close> = io.open("../allFilms.csv", "w+")
-allFilmsCSV:write(require("allFilmsCSV"))
+s = require("allFilmsCSV")
+allFilmsCSV:write(s)
 allFilmsCSV:close()
