@@ -408,7 +408,9 @@ return {
   {tier = nil, year = 1977, title = "Legend of Dinosaurs and Monster Birds"},
   {tier = nil, year = 1977, title = "The Last Dinosaur"},
   {tier = nil, year = 1983, title = "Attack of the Super Monsters"},
-  {tier = nil, year = 1993, title = "Jurassic Park"},
+  {tier = "B", year = 1993, title = "Jurassic Park",
+   poster = "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+   blurb = nil},
   {tier = "E", year = 1994, title = "Dinosaur Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Dinosaur_island_1994.jpg/220px-Dinosaur_island_1994.jpg",
    blurb = "Trashy and ridiculous. Leans heavily on sex-appeal, terrible one-liners "
@@ -603,6 +605,7 @@ return {
    blurb = "Tense, disturbing, tragic, and with something to say (although it's "
         .. "not really clear what)."},
   {tier = nil, year = 2006, title = "Mammoth"},
+  {tier = nil, year = 2006, title = "Monster House"},
   {tier = "A", year = 2008, title = "Cloverfield",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Cloverfield_theatrical_poster.jpg/220px-Cloverfield_theatrical_poster.jpg",
    blurb = "A character-driven horror film with fantastic acting, cool monsters, "
