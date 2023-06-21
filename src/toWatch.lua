@@ -469,6 +469,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/The_Sea_Beast_film_poster.png/220px-The_Sea_Beast_film_poster.png",
    blurb = "I would've taken the plot down a darker path, but I appreciate the occasional "
         .. "uplifting story as well."},
+  {tier = nil, year = 2023, title = "Ruby Gillman, Teenage Kraken"},
 
   -- Aliens
   {tier = "D", year = 1957, title = "20 Million Miles To Earth",
@@ -523,7 +524,7 @@ return {
   {tier = "D", year = 1995, title = "Attack of the 60 Foot Centerfold",
    poster = "https://upload.wikimedia.org/wikipedia/en/d/d3/Attack_of_the_60_Foot_Centerfold.jpg",
    blurb = "Occasionally tasteless, but endearingly shameless."},
-  {tier = "C", year = 2012, title = "Attack of the 50 Foot Cheerleader",
+  {tier = "D", year = 2012, title = "Attack of the 50 Foot Cheerleader",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Attack_Of_The_50_Foot_Cheerleader_Poster.jpg/220px-Attack_Of_The_50_Foot_Cheerleader_Poster.jpg",
    blurb = "Surprisingly tasteful, given the overt sexuality of it all."},
   {tier = "F", year = 2022, title = "Attack of the 50 Foot Camgirl",
