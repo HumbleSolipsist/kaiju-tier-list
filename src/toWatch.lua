@@ -355,7 +355,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
    blurb = "The best fight scenes in the genre, a well developed setting, and an "
         .. "impressive attention to detail make this a distinct favourite of mine."},
-  {tier = "D", year = 2018, title = "Pacific Rim: Uprising",
+  {tier = "C", year = 2018, title = "Pacific Rim: Uprising",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Pacific_Rim_-_Uprising_%282018_film%29.jpg/220px-Pacific_Rim_-_Uprising_%282018_film%29.jpg",
    blurb = "Feels more like a rip-off of Pacific Rim than a sequel."},
   {tier = "D", year = 2021, title = "Pacific Rim: The Black",
