@@ -28,7 +28,7 @@ return {
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Kingkong_bigfinal1.jpg/220px-Kingkong_bigfinal1.jpg",
    blurb = "It may be 3 hours long, but it earns its runtime. A dark fantasy epic "
         .. "about nature's loss of divinity in the industrial age."},
-  {tier = "C", year = 2017, title = "Kong: Skull Island",
+  {tier = "B", year = 2017, title = "Kong: Skull Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/3/34/Kong_Skull_Island_poster.jpg",
    blurb = "Delivers on the action, but feels very generic."},
 
