@@ -33,8 +33,8 @@ local toWatch = {
    blurb = "Delivers on the action, but feels very generic."},
   {tier = "C", year = 2023, title = "Skull Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/3/30/Skull_Island_officialposter.jpg",
-   blurb = "Pretty much what you'd expect from an action/adventure animated series "
-        .. "on Netflix."},
+   blurb = "Pretty much exactly what you'd expect from an action/adventure animated "
+        .. "series on Netflix."},
 
   -- Godzilla
   -- Showa
@@ -104,8 +104,8 @@ local toWatch = {
   -- Heisei
   {tier = "D", year = 1984, title = "The Return of Godzilla",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Godzilla_1984.jpg/220px-Godzilla_1984.jpg",
-   blurb = "A return to a darker, more realistic, more adult take on Godzilla. Unfortunately, "
-        .. "the writing seems to have retained the silliness of the Showa films, so "
+   blurb = "Although it tries to return to a darker take on Godzilla, "
+        .. "the writing has retained the silliness of the Showa films, so "
         .. "it's hard for the audience to take it as seriously as it takes itself."},
   {tier = "B", year = 1989, title = "Godzilla vs Biollante",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Godzilla_vs._Biollante_%281989%29_poster.jpg/220px-Godzilla_vs._Biollante_%281989%29_poster.jpg",
