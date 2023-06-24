@@ -83,6 +83,12 @@ return html.document{
         "doing a long-touch on mobile).",
         "The fact that all the S-tier films were released after my birth is ",
         "a coincidence, as I am immune to bias and nostalgia ;)"},
+      html.p{class = "intro",
+        "Also available as an ",
+        html.a{href = "https://letterboxd.com/humblesolipsist/list/kaiju-film-ranking/",
+          "ordered list on letterboxd"
+        }
+      },
       tierListRow("S", tierList["S"]),
       tierListRow("A", tierList["A"]),
       tierListRow("B", tierList["B"]),
