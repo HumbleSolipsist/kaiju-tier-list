@@ -87,7 +87,7 @@ return html.document{
         "Also available as an ",
         html.a{href = "https://letterboxd.com/humblesolipsist/list/kaiju-film-ranking/",
           "ordered list on letterboxd"
-        }
+        },
       },
       tierListRow("S", tierList["S"]),
       tierListRow("A", tierList["A"]),

@@ -32,6 +32,14 @@ body {
     max-width: 1000pt;
 }
 
+a:link {
+    color: hsl(190, 100%, 80%);
+}
+
+a:visited {
+    color: hsl(255, 100%, 80%);
+}
+
 .tierRow {
     color: black;
 }
