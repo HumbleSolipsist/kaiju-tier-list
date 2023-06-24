@@ -242,9 +242,9 @@ local toWatch = {
         .. "too seriously for a film with so little substance."},
   {tier = "A", year = 1966, title = "Gamera vs Barugon",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Gamera_vs_barugon_poster.gif/220px-Gamera_vs_barugon_poster.gif",
-   blurb = "Shockingly good for a showa-era gamera film. Yes, its budget and age "
-        .. "both show, but it was crafted with love, artistry, and an attention "
-        .. "to detail that most films do not demonstrate."},
+   blurb = "Shockingly good for a showa-era gamera film. Its budget and age "
+        .. "both show, but it was crafted with love, artistry, and great attention "
+        .. "to detail."},
   {tier = "B", year = 1967, title = "Gamera vs Gyaos",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Gamera_vs_gyaos_poster.jpg/220px-Gamera_vs_gyaos_poster.jpg",
    blurb = "Shallow characters and a kinda propaganda-y plot, but the special effects "
@@ -427,9 +427,8 @@ local toWatch = {
   {tier = "C", year = 2019, title = "Howl from Beyond the Fog",
    poster = "https://image.tmdb.org/t/p/w300_and_h450_bestv2/yR8lbjg6hsGKkGgRgh2qqE8AaVt.jpg",
    blurb = "The monster steals the show, excellent in both design and execution. "
-        .. "Nothing else about it really works for me, though. The marionettes are "
-        .. "not expressive enough to convey compelling characters, the digital visual-"
-        .. "effects look ameturish, and the song choices are bizarre."},
+        .. "Unfortunately, the marionettes are not expressive enough, the digital "
+        .. "visual-effects look ameturish, and the song choices are bizarre."},
 
   -- Bugs
   {tier = "C", year = 1954, title = "Them!",
@@ -511,9 +510,8 @@ local toWatch = {
   -- Giantesses
   {tier = "C", year = 1958, title = "Attack of the 50 Foot Woman",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Attackofthe50ftwoman.jpg/220px-Attackofthe50ftwoman.jpg",
-   blurb = "The OG giantess film! This movie has the worst special effects I've "
-        .. "ever seen in a feature-length film, and the story doesn't make a lot "
-        .. "of sense, but it's kind-of endearing in it's own way."},
+   blurb = "The OG giantess film! This movie has terrible special effects, and the "
+        .. "story doesn't make a lot of sense, but it's kind-of endearing anyway."},
   {tier = "E", year = 1959, title = "The 30-Foot Bride of Candy Rock",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Thirtyfootbride.jpg/220px-Thirtyfootbride.jpg",
    blurb = "Lou Costello's performance lacks his signature high-energy goofery, "
