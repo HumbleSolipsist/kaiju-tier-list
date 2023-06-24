@@ -1,4 +1,4 @@
-return {
+local toWatch = {
   -- King Kong
   {tier = "B", year = 1933, title = "King Kong",
    poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kingkongposter.jpg/220px-Kingkongposter.jpg",
@@ -31,6 +31,10 @@ return {
   {tier = "B", year = 2017, title = "Kong: Skull Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/3/34/Kong_Skull_Island_poster.jpg",
    blurb = "Delivers on the action, but feels very generic."},
+  {tier = "C", year = 2023, title = "Skull Island",
+   poster = "https://upload.wikimedia.org/wikipedia/en/3/30/Skull_Island_officialposter.jpg",
+   blurb = "Pretty much what you'd expect from an action/adventure animated series "
+        .. "on Netflix."},
 
   -- Godzilla
   -- Showa
@@ -410,7 +414,7 @@ return {
   {tier = nil, year = 1983, title = "Attack of the Super Monsters"},
   {tier = "B", year = 1993, title = "Jurassic Park",
    poster = "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
-   blurb = nil},
+   blurb = "You already know Jurassic Park!"},
   {tier = "E", year = 1994, title = "Dinosaur Island",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Dinosaur_island_1994.jpg/220px-Dinosaur_island_1994.jpg",
    blurb = "Trashy and ridiculous. Leans heavily on sex-appeal, terrible one-liners "
@@ -667,3 +671,17 @@ return {
   {tier = nil, year = 2023, title = "Devil Beneath"},
   {tier = nil, year = 2023, title = "The Beast Below"},
 }
+
+for i, movie in ipairs(toWatch) do
+  movie.order = i
+end
+
+table.sort(toWatch, function(m1, m2)
+  local year1 = type(m1.year) == "number" and m1.year or 999999
+  local year2 = type(m2.year) == "number" and m2.year or 999999
+  return year1 == year2
+    and m1.order < m2.order
+    or year1 < year2
+end)
+
+return toWatch

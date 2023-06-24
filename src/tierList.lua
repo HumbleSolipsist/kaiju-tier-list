@@ -1,17 +1,5 @@
 local toWatch = require "toWatch"
 
-for i, movie in ipairs(toWatch) do
-  movie.order = i
-end
-
-table.sort(toWatch, function(m1, m2)
-  local year1 = type(m1.year) == "number" and m1.year or 999999
-  local year2 = type(m2.year) == "number" and m2.year or 999999
-  return year1 == year2
-    and m1.order < m2.order
-    or year1 < year2
-end)
-
 local tierList = {
   S = {color = "#ffadad"},
   A = {color = "#ffd6a5"},
