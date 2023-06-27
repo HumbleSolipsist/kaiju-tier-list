@@ -619,7 +619,9 @@ local toWatch = {
   {tier = "D", year = 2009, title = "Monsters vs Aliens",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Monsters-vs-aliens-poster.jpg/220px-Monsters-vs-aliens-poster.jpg",
    blurb = "Immature, unfunny, but kinda cute, and the action doesn't suck."},
-  {tier = nil, year = 2009, title = "Gehara: The Dark & Long Hair Monster"},
+  {tier = "C", year = 2009, title = "Geharha: The Dark & Long Hair Monster",
+   poster = "https://upload.wikimedia.org/wikipedia/en/a/a9/Geharha-_The_Dark_and_Long_Haired_Monster.jpg",
+   blurb = "An amusing short film that parodies Godzilla."},
   {tier = "S", year = 2010, title = "Trollhunter",
    poster = "https://upload.wikimedia.org/wikipedia/en/1/1e/TrollHunter.jpg",
    blurb = "Original, human, and able to engender sympathy for the monsters without "
