@@ -415,10 +415,6 @@ local toWatch = {
   {tier = "B", year = 1993, title = "Jurassic Park",
    poster = "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
    blurb = "You already know Jurassic Park!"},
-  {tier = "E", year = 1994, title = "Dinosaur Island",
-   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Dinosaur_island_1994.jpg/220px-Dinosaur_island_1994.jpg",
-   blurb = "Trashy and ridiculous. Leans heavily on sex-appeal, terrible one-liners "
-        .. "abound, but fun in places anyway. Probably because of the boobies."},
   {tier = nil, year = 2008, title = "Loch Ness Terror"},
   {tier = "E", year = 2010, title = "Dinocroc vs Supergator",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Dinocroc_vs._Supergator_DVD.jpg/220px-Dinocroc_vs._Supergator_DVD.jpg",
@@ -526,9 +522,9 @@ local toWatch = {
   {tier = "D", year = 1995, title = "Attack of the 60 Foot Centerfold",
    poster = "https://upload.wikimedia.org/wikipedia/en/d/d3/Attack_of_the_60_Foot_Centerfold.jpg",
    blurb = "Occasionally tasteless, but endearingly shameless."},
-  {tier = "D", year = 2012, title = "Attack of the 50 Foot Cheerleader",
+  {tier = "E", year = 2012, title = "Attack of the 50 Foot Cheerleader",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Attack_Of_The_50_Foot_Cheerleader_Poster.jpg/220px-Attack_Of_The_50_Foot_Cheerleader_Poster.jpg",
-   blurb = "Surprisingly tasteful, given the overt sexuality of it all."},
+   blurb = "Kind of cringe-y, but entertaining in places."},
   {tier = "F", year = 2022, title = "Attack of the 50 Foot Camgirl",
    poster = "https://m.media-amazon.com/images/I/81+aiH4NYSL._SX342_.jpg",
    blurb = "A soft-core porn parody that lacks both laughs and sex-appeal. The "
