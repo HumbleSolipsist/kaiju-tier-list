@@ -15,6 +15,7 @@ for _, movie in ipairs(toWatch) do
   tier[#tier + 1] = movie
 end
 
+io.write(#tierList.S + #tierList.A + #tierList.B + #tierList.C + #tierList.D + #tierList.E + #tierList.F, "\n")
 local tiers = {"S", "A", "B", "C", "D", "E", "F"}
 for _, tier in ipairs(tiers) do
   local prop = #tierList[tier]/#toWatch

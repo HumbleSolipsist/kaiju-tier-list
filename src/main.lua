@@ -12,3 +12,8 @@ local allFilmsCSV <close> = io.open("../allFilms.csv", "w+")
 s = require("allFilmsCSV")
 allFilmsCSV:write(s)
 allFilmsCSV:close()
+
+local watchlistMD <close> = io.open("../allFilms.md", "w+")
+s = require("allFilmsMD")
+watchlistMD:write(s)
+watchlistMD:close()
