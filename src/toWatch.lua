@@ -199,6 +199,10 @@ local toWatch = {
    blurb = "Ghidorah is reimagined here as a Lovecraftian eldritch horror, a very "
         .. "welcome twist that revitalizes the character and makes him more terrifying "
         .. "than ever."},
+  {tier = "B", year = 2021, title = "Godzilla Singular Point",
+   poster = "https://upload.wikimedia.org/wikipedia/en/1/16/Godzilla_Singular_Point_Key_Visual.jpg",
+   blurb = "Excellent characters, enthralling mystery, marred by inconsistent animation "
+        .. "and an excessively slow start."},
 
   -- Quatermass
   {tier = nil, year = 1955, title = "The Quatermass Xperiment"},
