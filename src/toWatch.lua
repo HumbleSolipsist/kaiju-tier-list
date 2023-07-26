@@ -299,7 +299,7 @@ local toWatch = {
   -- Ultra Series
   -- Showa
   {tier = "C", year = 1966, title = "Ultra Q",
-   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/UltraQ-title.jpg/220px-UltraQ-title.jpg",
+   poster = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ultra_q_logo.svg/220px-Ultra_q_logo.svg.png",
    blurb = "The better episodes perfectly capture the campy charm of showa-era kaiju, "
         .. "but there are a lot of misses."},
   {tier = "B", year = 1966, title = "Ultraman",
