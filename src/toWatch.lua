@@ -468,6 +468,10 @@ local toWatch = {
   {tier = nil, year = 1978, title = "The Bermuda Depths"},
   {tier = nil, year = 1980, title = "Island Claws"},
   {tier = nil, year = 1998, title = "Deep Rising"},
+  {tier = "D", year = 2018, title = "The Meg",
+   poster = "https://upload.wikimedia.org/wikipedia/en/a/a5/The_Meg_2018_film_cover.png",
+   blurb = "Basically a 150 million USD B-movie. But at the end they put "
+        .. "the word \"fin\" on the screen, so I guess that makes up for it."},
   {tier = "B", year = 2022, title = "The Sea Beast",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/The_Sea_Beast_film_poster.png/220px-The_Sea_Beast_film_poster.png",
    blurb = "I would've taken the plot down a darker path, but I appreciate the occasional "
