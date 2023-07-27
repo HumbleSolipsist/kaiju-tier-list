@@ -612,7 +612,9 @@ local toWatch = {
    blurb = "Tense, disturbing, tragic, and with something to say (although it's "
         .. "not really clear what)."},
   {tier = nil, year = 2006, title = "Mammoth"},
-  {tier = nil, year = 2006, title = "Monster House"},
+  {tier = "A", year = 2006, title = "Monster House",
+   poster = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Monster_House_poster.jpg/220px-Monster_House_poster.jpg",
+   blurb = "The titular house is honestly so dope"},
   {tier = "A", year = 2008, title = "Cloverfield",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Cloverfield_theatrical_poster.jpg/220px-Cloverfield_theatrical_poster.jpg",
    blurb = "A character-driven horror film with fantastic acting, cool monsters, "
