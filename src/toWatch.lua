@@ -454,7 +454,7 @@ local toWatch = {
   {tier = nil, year = 2015, title = "Lavalantula"},
 
   -- Sea Monsters
-  {tier = "F", year = 1955, title = "It Came From Beneath the Sea",
+  {tier = "E", year = 1955, title = "It Came From Beneath the Sea",
    poster = "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/It_Came_From_Beneath_The_Sea_poster.jpg/220px-It_Came_From_Beneath_The_Sea_poster.jpg",
    blurb = "Harryhousen's octopus is great, but there's more cringe-worthy romance"
         .. " than monster."},
