@@ -587,7 +587,6 @@ local toWatch = {
   {tier = nil, year = 1976, title = "At the Earth's Core"},
   {tier = nil, year = 1976, title = "The Food of the Gods"},
   {tier = nil, year = 1977, title = "The Mighty Peking Man"},
-  {tier = nil, year = 1977, title = "Goliathon"},
   {tier = "D", year = 1979, title = "Prophecy",
    poster = "posters/(1979) Prophecy",
    blurb = "Ignoring the nonsense plot, the weak characters, and the questionable "
