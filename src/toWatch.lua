@@ -401,7 +401,11 @@ local toWatch = {
   {tier = nil, year = 1957, title = "The Land Unknown"},
   {tier = nil, year = 1958, title = "Varan"},
   {tier = nil, year = 1959, title = "The Giant Behemoth"},
-  {tier = nil, year = 1960, title = "The Lost World"},
+  {tier = "D", year = 1960, title = "The Lost World",
+   poster = "posters/(1960) The Lost World",
+   blurb = "The use of live reptiles to portray dinosaurs is made all the more disgusting "
+        .. "by the dino-on-dino fight scene. No blackface this time, but still pretty "
+        .. "racist."},
   {tier = nil, year = 1961, title = "Reptilicus"},
   {tier = nil, year = 1961, title = "Gorgo"},
   {tier = "C", year = 1966, title = "One Million Years B.C.",
