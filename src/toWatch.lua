@@ -386,7 +386,7 @@ local toWatch = {
 
   -- Misc
   -- Dinosaur-like
-  {tier = "D", year = 1925, title = "The Lost World",
+  {tier = "E", year = 1925, title = "The Lost World",
    poster = "posters/(1925) The Lost World",
    blurb = "Historically interesting, but lacking emotional depth, engaging narrative, "
         .. "and entertainment value. Conspicuous blackface."},
