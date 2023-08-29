@@ -576,7 +576,10 @@ local toWatch = {
         .. "Italy, but it was clearly very low budget and mostly stuck to standard "
         .. "conventions of the genre."},
   {tier = nil, year = 1959, title = "The Angry Red Planet"},
-  {tier = nil, year = 1961, title = "Mysterious Island"},
+  {tier = "A", year = 1961, title = "Mysterious Island",
+   poster = "posters/(1961) Mysterious Island",
+   blurb = "As mysterious as advertised! Harryhousen's impeccable stop motion pairs "
+        .. "perfectly with the gorgeous sets for some very impressive shots."},
   {tier = nil, year = 1962, title = "Gorath"},
   {tier = "C", year = 1965, title = "Frankenstein vs Baragon",
    poster = "posters/(1965) Frankenstein vs Baragon",
