@@ -284,7 +284,7 @@ local toWatch = {
         .. "but the experience is dragged down by monotonic acting."},
   {tier = "A", year = 1996, title = "Gamera 2: Attack of Legion",
    poster = "posters/(1996) Gamera 2: Attack of Legion",
-   blurb = "The lack of human character development will be offputting to some, but"
+   blurb = "The lack of human character development will be offputting to some, but "
         .. "this film has some of the best realized monsters in the genre. A real "
         .. "visual pleasure."},
   {tier = "B", year = 1999, title = "Gamera 3: Revenge of Iris",
