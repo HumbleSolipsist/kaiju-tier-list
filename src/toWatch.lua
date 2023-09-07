@@ -660,7 +660,10 @@ local toWatch = {
    blurb = "It's a bit disappointing to see the goofy video game "
         .. "classic Rampage converted into such a by-the-numbers blockbuster, but "
         .. "I'd be lying if I said I didn't have fun."},
-  {tier = nil, year = 2018, title = "Lake Michigan Monster"},
+  {tier = "B", year = 2018, title = "Lake Michigan Monster",
+   poster = "posters/(2018) Lake Michigan Monster",
+   blurb = "Sincerely one of the weirdest films I've ever seen. Definitely has \"Youtube "
+        .. "skit\" vibes, but it's hilarious and stylish enough to compensate."},
   {tier = nil, year = 2018, title = "The Great Buddha: Arrival"},
   {tier = nil, year = 2019, title = "It Wants Blood!"},
   {tier = nil, year = 2019, title = "Cencoroll Connect"},
