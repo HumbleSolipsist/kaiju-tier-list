@@ -534,7 +534,6 @@ local toWatch = {
    poster = "posters/(1993) Attack of the 50 Foot Woman",
    blurb = "Successfully utilizes the giantess as a symbol of female empowerment, "
         .. "but does get pretty preachy towards the end."},
-  {tier = nil, year = 1994, title = "Attack of the 50 Foot Hooker"},
   {tier = "C", year = 1995, title = "Attack of the 60 Foot Centerfold",
    poster = "posters/(1995) Attack of the 60 Foot Centerfold",
    blurb = "Occasionally tasteless, but endearingly shameless."},
@@ -555,7 +554,9 @@ local toWatch = {
   {tier = "D", year = 1963, title = "Atragon",
    poster = "posters/(1963) Atragon",
    blurb = "Suffers from one of the worst dubs I've ever heard."},
-  {tier = nil, year = 1966, title = "The Magic Serpent"},
+  {tier = "B", year = 1966, title = "The Magic Serpent",
+   poster = "posters/(1966) The Magic Serpent",
+   blurb = "Watching wizard-ninjas clash is a very simple sort of fun."},
   {tier = nil, year = 1982, title = "Q: The Winged Serpent"},
   {tier = nil, year = 1994, title = "Orochi, the Eight-Headed Dragon"},
   {tier = nil, year = 2007, title = "D-War"},
