@@ -477,7 +477,7 @@ local toWatch = {
    poster = "posters/(2018) The Meg",
    blurb = "Basically a 150 million USD B-movie. But at the end they put "
         .. "the word \"fin\" on the screen, so I guess that makes up for it."},
-  {tier = "B", year = 2022, title = "The Sea Beast",
+  {tier = "C", year = 2022, title = "The Sea Beast",
    poster = "posters/(2022) The Sea Beast",
    blurb = "I would've taken the plot down a darker path, but I appreciate the occasional "
         .. "uplifting story as well."},
