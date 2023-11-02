@@ -81,7 +81,7 @@ local toWatch = {
   {tier = "E", year = 1969, title = "All Monsters Attack",
    poster = "posters/(1969) All Monsters Attack",
    blurb = "A film about a small boy learning how to stand up to bullies. Not horribly "
-        .. "made, but lacking anything to appeal to adults."},
+        .. "made, but lacks anything to appeal to adults."},
   {tier = "D", year = 1971, title = "Godzilla vs Hedorah",
    poster = "posters/(1971) Godzilla vs Hedorah",
    blurb = "Weird, and not in a good way."},
@@ -104,9 +104,8 @@ local toWatch = {
   -- Heisei
   {tier = "D", year = 1984, title = "The Return of Godzilla",
    poster = "posters/(1984) The Return of Godzilla",
-   blurb = "Although it tries to return to a darker take on Godzilla, "
-        .. "the writing has retained the silliness of the Showa films, so "
-        .. "it's hard for the audience to take it as seriously as it takes itself."},
+   blurb = "A dark take on Godzilla that retains the silliness of the Showa films, "
+        .. "making it hard for the audience to take it as seriously as it takes itself."},
   {tier = "B", year = 1989, title = "Godzilla vs Biollante",
    poster = "posters/(1989) Godzilla vs Biollante",
    blurb = "Biollante, and the parts of the film that focus on her, are incredible. "
@@ -137,9 +136,8 @@ local toWatch = {
   -- Tristar
   {tier = "D", year = 1998, title = "Godzilla",
    poster = "posters/(1998) Godzilla",
-   blurb = "Doesn't really feel like Godzilla, and, even ignoring that, it was a weak "
-        .. "film. At times the weird pacing made it feel more like an extended trailer "
-        .. "than an actual movie."},
+   blurb = "Not a faithful interpretation of Godzilla, and, at times, the weird pacing "
+        .. "makes it feel more like an extended trailer than an actual movie."},
 
   -- Millenium
   {tier = "C", year = 1999, title = "Godzilla 2000",
