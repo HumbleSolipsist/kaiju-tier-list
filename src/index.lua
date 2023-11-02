@@ -1,19 +1,29 @@
 local html = require "html"
 local tierList = require "tierList"
 
+local function fileExists(fname)
+  local f <close> = io.open(fname, "r")
+  return f ~= nil
+end
+
 local function tierListRow(rowTitle, rowData)
   local movieDivs = {}
   for _, movie in ipairs(rowData) do
     if movie.year == nil then
       print(movie.title)
     end
+
+    local posterSrc = movie.poster or ("posters/(" .. movie.year .. ") " .. movie.title)
+
     movieDivs[#movieDivs + 1] = html.div{
       id = movie.title .. " (" .. movie.year .. ")",
       class = "tierEntry",
       title = movie.blurb or movie.title,
-      movie.poster
-        and html.img{src = movie.poster, class = "moviePoster"}
-        or html.comment("No poster."),
+      fileExists("../" .. posterSrc)
+        and  html.img{
+               src = posterSrc,
+               class = "moviePoster"}
+        or html.comment{"No poster"},
       html.br{},
       html.i{movie.title},
       html.br{},
