@@ -312,7 +312,9 @@ local toWatch = {
   {tier = "C", year = 1953, title = "The Beast from 20,000 Fathoms",
    blurb = "One of \"the originals\", but, outside of Ray Harryhousen's fantastic "
         .. "beast, not exceptionally noteworthy."},
-  {tier = nil, year = 1955, title = "King Dinosaur"},
+  {tier = "F", year = 1955, title = "King Dinosaur"
+   blurb = "Imagine my disappointment when the therapod on the poster turned out "
+        .. "to be another fucking iguana."},
   {tier = nil, year = 1956, title = "The Beast of Hollow Mountain"},
   {tier = nil, year = 1956, title = "Rodan"},
   {tier = nil, year = 1957, title = "The Land Unknown"},
