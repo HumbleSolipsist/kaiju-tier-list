@@ -299,7 +299,7 @@ local toWatch = {
         .. "has a hypnotic effect, captivating the audience. Still, it's "
         .. "not exactly a virtuous film."},
   {tier = "F", year = 2022, title = "Hammer of Draco Wrath of Dragons",
-   blurb = "Hideous, incoherent, unfunny, grating. The worst feature film I've ever seen."},
+   blurb = "Hideous, incoherent, unfunny, grating. Every single scene is insufferable."},
   {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Gorilla Monkey King"},
   {tier = nil, year = "TBA",title = "Dragon Lizard Lord vs Avalon"},
 
@@ -316,7 +316,9 @@ local toWatch = {
    blurb = "Imagine my disappointment when, after an uneventful first 40 minutes, "
         .. "the therapod on the poster turned out to be another fucking iguana."},
   {tier = nil, year = 1956, title = "The Beast of Hollow Mountain"},
-  {tier = nil, year = 1956, title = "Rodan"},
+  {tier = "C", year = 1956, title = "Rodan",
+   blurb = "Suspenseful first two acts, but the climax lacked a certain je ne sais "
+        .. "pas. At least the visuals were excellent throughout."},
   {tier = nil, year = 1957, title = "The Land Unknown"},
   {tier = nil, year = 1958, title = "Varan"},
   {tier = nil, year = 1959, title = "The Giant Behemoth"},
