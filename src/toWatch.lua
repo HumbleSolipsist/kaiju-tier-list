@@ -463,7 +463,17 @@ local toWatch = {
    blurb = "A mineral menaces a town. Creative premise, but quite conventional in "
         .. "execution."},
   {tier = nil, year = 1958, title = "The H-Man"},
-  {tier = nil, year = 1959, title = "The Giant Gila Monster"},
+  {tier = nil, year = 1959, title = "The Giant Gila Monster",
+   tier = "E",
+   blurb = "And the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh "
+        .. "the lord said laugh children laugh"},
   {tier = nil, year = 1958, title = "The Strange World of Planet X"},
   {tier = "D", year = 1959, title = "Caltiki - The Immortal Monster",
    blurb = "The special effects work is quite impressive for a 1959 film from "
