@@ -18,10 +18,8 @@ end
 io.write(#tierList.S + #tierList.A + #tierList.B + #tierList.C + #tierList.D + #tierList.E + #tierList.F, "\n")
 local tiers = {"S", "A", "B", "C", "D", "E", "F"}
 for _, tier in ipairs(tiers) do
-  local prop = #tierList[tier]/#toWatch
-  local printCount = math.floor(prop * 200)
   io.write(tier, " ")
-  for i = 1, printCount do
+  for i = 1, #tierList[tier] do
     io.write("#")
   end
   io.write("\n")
