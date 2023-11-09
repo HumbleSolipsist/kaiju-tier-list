@@ -2,7 +2,7 @@ local toWatch = {
   -- King Kong
   {tier = "B", year = 1933, title = "King Kong",
    blurb = "A grim spectacle of prehistoric violence brought into the modern world."},
-  {tier = "C", year = 1933, title = "Son of Kong",
+  {tier = "D", year = 1933, title = "Son of Kong",
    blurb = "Recognizes that Skull Island is interesting enough without Kong to "
         .. "still have a fun story, but decidedly on the slow side. Lacks purpose."},
   {tier = "C", year = 1967, title = "King Kong Escapes",
