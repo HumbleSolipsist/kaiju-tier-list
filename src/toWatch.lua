@@ -512,7 +512,9 @@ local toWatch = {
   {tier = "S", year = 1997, title = "Princess Mononoke",
    blurb = "Yes, this is a kaiju film (and a damn good one!). I will die on this hill."},
   {tier = nil, year = 2000, title = "Sakuya, The Slayer of Demons"},
-  {tier = nil, year = 2004, title = "Monster Island"},
+  {tier = "C", year = 2004, title = "Monster Island",
+   blurb = "The stop-motion and practical-effects monsters really solidify the "
+        .. "retro sci-fi vibes the film was going for."},
   {tier = nil, year = 2005, title = "The Great Yokai War"},
   {tier = nil, year = 2005, title = "Negadon: The Monster from Mars"},
   {tier = "A", year = 2006, title = "The Host",
