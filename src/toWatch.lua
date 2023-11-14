@@ -365,7 +365,9 @@ local toWatch = {
   {tier = nil, year = 2000, title = "Spiders"},
   {tier = nil, year = 2001, title = "Arachnid"},
   {tier = nil, year = 2001, title = "Spiders II: Breeding Ground"},
-  {tier = nil, year = 2002, title = "Eight Legged Freaks"},
+  {tier = "C", year = 2002, title = "Eight Legged Freaks",
+   blurb = "Although nothing about this movie is even a little bit surprising, "
+        .. "the quirky characters and visual gags keep things light and fun."},
   {tier = "C", year = 2013, title = "Big Ass Spider",
    blurb = "A spoof of B-movies that's mainly just a B-movie itself."},
   {tier = nil, year = 2015, title = "Lavalantula"},
@@ -513,8 +515,8 @@ local toWatch = {
    blurb = "Yes, this is a kaiju film (and a damn good one!). I will die on this hill."},
   {tier = nil, year = 2000, title = "Sakuya, The Slayer of Demons"},
   {tier = "C", year = 2004, title = "Monster Island",
-   blurb = "The stop-motion and practical-effects monsters really solidify the "
-        .. "retro sci-fi vibes the film was going for."},
+   blurb = "The stop-motion and practical-effects monsters lend a real authenticity "
+        .. "to this spoof of classic sci-fi."},
   {tier = nil, year = 2005, title = "The Great Yokai War"},
   {tier = nil, year = 2005, title = "Negadon: The Monster from Mars"},
   {tier = "A", year = 2006, title = "The Host",
