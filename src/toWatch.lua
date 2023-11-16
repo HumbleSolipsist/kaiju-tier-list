@@ -474,7 +474,6 @@ local toWatch = {
         .. "the lord said laugh children laugh "
         .. "the lord said laugh children laugh "
         .. "the lord said laugh children laugh "
-        .. "the lord said laugh children laugh "
         .. "the lord said laugh children laugh"},
   {tier = nil, year = 1958, title = "The Strange World of Planet X"},
   {tier = "D", year = 1959, title = "Caltiki - The Immortal Monster",
@@ -504,7 +503,10 @@ local toWatch = {
         .. "atmosphere."},
   {tier = nil, year = 1981, title = "Clash of the Titans"},
   {tier = nil, year = 1985, title = "The Stuff"},
-  {tier = nil, year = 1985, title = "Pulgasari"},
+  {tier = "C", year = 1985, title = "Pulgasari",
+   blurb = "Abhorrent production techniques aside - the large-scale battles and special-"
+        .. "effects shots are very impressive, but they grow tiresome because of the film's "
+        .. "limited plot."},
   {tier = nil, year = 1985, title = "War of the God Monsters"},
   {tier = nil, year = 1988, title = "Thunder Of Gigantic Serpent"},
   {tier = "A", year = 1990, title = "Tremors",
