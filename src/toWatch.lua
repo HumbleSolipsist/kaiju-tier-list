@@ -38,8 +38,11 @@ local toWatch = {
    blurb = "Don't expect a localization of the OG Godzilla, this is so heavily "
         .. "edited that it's basically a new film that just scrapped Godzilla for "
         .. "stock footage."},
-  {tier = "C", year = 1962, title = "King Kong vs Godzilla",
-   blurb = "A slapstick reimagining of the titular beasts - silly, but pretty funny."},
+  {tier = "B", year = 1962, title = "King Kong vs Godzilla (Japan)",
+   blurb = "A slapstick reimagining of the titular beasts - silly, but pretty fun."},
+  {tier = "C", year = 1963, title = "King Kong vs Godzilla (USA)",
+   blurb = "Why did Americans of this era always feel the need to make stupid edits "
+        .. "when localizing perfectly good foreign films?"},
   {tier = "C", year = 1964, title = "Mothra vs Godzilla",
    blurb = "Enticingly mysterious and mystical, but Godzilla's portrayal is fairly "
         .. "unintimidating and the fight scenes are repetitive."},
