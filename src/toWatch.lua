@@ -503,10 +503,10 @@ local toWatch = {
         .. "atmosphere."},
   {tier = nil, year = 1981, title = "Clash of the Titans"},
   {tier = nil, year = 1985, title = "The Stuff"},
-  {tier = "C", year = 1985, title = "Pulgasari",
-   blurb = "Abhorrent production techniques aside - the large-scale battles and special-"
-        .. "effects shots are very impressive, but they grow tiresome because of the film's "
-        .. "limited plot."},
+  {tier = "D", year = 1985, title = "Pulgasari",
+   blurb = "The film clearly had substantial (ill-gotten) resources behind it, which "
+        .. "it shows off with large-scale battles and impressive special-effects "
+        .. "shots, but it grows tiresome quickly because of its limited plot."},
   {tier = nil, year = 1985, title = "War of the God Monsters"},
   {tier = nil, year = 1988, title = "Thunder Of Gigantic Serpent"},
   {tier = "A", year = 1990, title = "Tremors",
