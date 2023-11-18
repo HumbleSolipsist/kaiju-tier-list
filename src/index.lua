@@ -55,6 +55,11 @@ local function tierNav(id)
 end
 
 return html.document{
+  html.head{
+    html.title{
+      "Kaiju Tier List"
+    }
+  },
   html.comment{
     "I got my rainbow from here: https://colorkit.co/palette/ffadad-ffd6a5-fdffb6-caffbf-9bf6ff-a0c4ff-bdb2ff-ffc6ff/"
   },
