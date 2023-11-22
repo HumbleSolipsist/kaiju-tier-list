@@ -233,6 +233,9 @@ local toWatch = {
    blurb = "A deeply personal and unique perspective on a classic-style kaiju story, "
         .. "as much about grief after the death of a loved one as it is about monsters."},
 
+  -- Reiwa
+  {tier = nil, year = 2023, title = "Gamera: Rebirth"},
+
   -- Ultra Series
   -- Showa
   {tier = "C", year = 1966, title = "Ultra Q",
