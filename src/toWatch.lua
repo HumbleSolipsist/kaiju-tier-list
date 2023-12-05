@@ -157,7 +157,8 @@ local toWatch = {
   {tier = "B", year = 2021, title = "Godzilla Singular Point",
    blurb = "Excellent characters, enthralling mystery, marred by inconsistent animation "
         .. "and an excessively slow start."},
-  {tier = nil, year = 2023, title = "Godzilla Minus One"},
+  {tier = "S", year = 2023, title = "Godzilla Minus One",
+   blurb = "Knocked the socks clean off my feet!"},
 
   -- Quatermass
   {tier = nil, year = 1955, title = "The Quatermass Xperiment"},
