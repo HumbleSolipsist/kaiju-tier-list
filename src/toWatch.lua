@@ -158,7 +158,8 @@ local toWatch = {
    blurb = "Excellent characters, enthralling mystery, marred by inconsistent animation "
         .. "and an excessively slow start."},
   {tier = "S", year = 2023, title = "Godzilla Minus One",
-   blurb = "Knocked the socks clean off my feet!"},
+   blurb = "The film's core is a former kamikaze pilot's struggle with survivor's "
+        .. "guilt, but Godzilla's also there, and he's a real bastard."},
 
   -- Quatermass
   {tier = nil, year = 1955, title = "The Quatermass Xperiment"},
