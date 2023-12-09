@@ -236,7 +236,8 @@ local toWatch = {
         .. "as much about grief after the death of a loved one as it is about monsters."},
 
   -- Reiwa
-  {tier = nil, year = 2023, title = "Gamera: Rebirth"},
+  {tier = "B", year = 2023, title = "Gamera Rebirth",
+   blurb = "They really don't hold out on the kaiju fights!"},
 
   -- Ultra Series
   -- Showa
@@ -382,8 +383,8 @@ local toWatch = {
 
   -- Sea Monsters
   {tier = "E", year = 1955, title = "It Came From Beneath the Sea",
-   blurb = "Harryhousen's octopus is great, but there's more cringe-worthy romance"
-        .. " than monster."},
+   blurb = "Harryhousen's octopus is great, but there's more cringe-worthy romance "
+        .. "than monster."},
   {tier = nil, year = 1956, title = "Moby Dick"},
   {tier = nil, year = 1957, title = "Attack of the Crab Monsters"},
   {tier = "E", year = 1957, title = "The Monster that Challenged the World",
@@ -428,8 +429,7 @@ local toWatch = {
   {tier = nil, year = 1958, title = "War of the Colossal Beast"},
   {tier = nil, year = 1976, title = "War God"},
   {tier = "C", year = 2007, title = "Big Man Japan",
-   blurb = "A man struggles to preserve his family business of growing giant to "
-        .. "fight monsters. The jokes rarely land, but I enjoy the melancholic and "
+   blurb = "The jokes rarely land, but I enjoy the melancholic and "
         .. "frank look into the life of a professional hero."},
 
   -- Giantesses
@@ -473,8 +473,7 @@ local toWatch = {
    blurb = "A mineral menaces a town. Creative premise, but quite conventional in "
         .. "execution."},
   {tier = nil, year = 1958, title = "The H-Man"},
-  {tier = nil, year = 1959, title = "The Giant Gila Monster",
-   tier = "E",
+  {tier = "E", year = 1959, title = "The Giant Gila Monster",
    blurb = "And the lord said laugh children laugh "
         .. "the lord said laugh children laugh "
         .. "the lord said laugh children laugh "
@@ -585,7 +584,7 @@ local toWatch = {
   {tier = nil, year = 2022, title = "Yuzo the Biggest Battle in Tokyo"},
   {tier = nil, year = 2022, title = "The Lake"},
   {tier = "B", year = 2022, title = "Troll",
-   blurb = "Comprised almost entirely of established kaiju & blockbuster tropes, but "
+   blurb = "Composed almost entirely of established kaiju & blockbuster tropes, but "
         .. "expertly constructed."},
   {tier = nil, year = 2023, title = "Devil Beneath"},
   {tier = nil, year = 2023, title = "The Beast Below"},
