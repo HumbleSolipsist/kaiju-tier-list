@@ -400,6 +400,9 @@ local toWatch = {
   {tier = "C", year = 2022, title = "The Sea Beast",
    blurb = "I would've taken the plot down a darker path, but I appreciate the occasional "
         .. "uplifting story as well."},
+  {tier = "C", year = 2023, title = "Meg 2: The Trench",
+   blurb = "I'm certainly in the minority, but I enjoyed this slightly more than "
+        .. "the first one."},
   {tier = nil, year = 2023, title = "Ruby Gillman, Teenage Kraken"},
 
   -- Aliens
