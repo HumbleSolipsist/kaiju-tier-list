@@ -380,13 +380,16 @@ local toWatch = {
   {tier = "C", year = 2013, title = "Big Ass Spider",
    blurb = "A spoof of B-movies that's mainly just a B-movie itself."},
   {tier = nil, year = 2015, title = "Lavalantula"},
+  {tier = nil, year = 2017, title = "It Came From The Desert"},
 
   -- Sea Monsters
   {tier = "E", year = 1955, title = "It Came From Beneath the Sea",
    blurb = "Harryhousen's octopus is great, but there's more cringe-worthy romance "
         .. "than monster."},
   {tier = nil, year = 1956, title = "Moby Dick"},
-  {tier = nil, year = 1957, title = "Attack of the Crab Monsters"},
+  {tier = "C", year = 1957, title = "Attack of the Crab Monsters",
+   blurb = "A suspensful sci-fi horror film about a mysterious being that can imitate "
+        .. "the dead. Often dorky, but never dull!"},
   {tier = "E", year = 1957, title = "The Monster that Challenged the World",
    blurb = "\"There's several monsters and they barely challenge one town.\" "
         .. "- IMDB user 13FunBags"},
