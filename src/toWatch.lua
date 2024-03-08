@@ -594,6 +594,7 @@ local toWatch = {
         .. "expertly constructed."},
   {tier = nil, year = 2023, title = "Devil Beneath"},
   {tier = nil, year = 2023, title = "The Beast Below"},
+  {tier = nil, year = 2023, title = "Sky Monster"},
 }
 
 for i, movie in ipairs(toWatch) do
