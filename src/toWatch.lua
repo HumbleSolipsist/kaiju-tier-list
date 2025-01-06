@@ -138,7 +138,7 @@ local toWatch = {
   {tier = "B", year = 2021, title = "Godzilla vs Kong",
    blurb = "The plot is nonsense packed with sci-fi gobbledygook, but that bit where "
         .. "Kong performs a Mortal Kombat fatality on Mechagodzilla is gnarly as fuck."},
-  {tier = "B", year = 2024, title = "Godzilla x Kong: The New Empire",
+  {tier = "C", year = 2024, title = "Godzilla x Kong: The New Empire",
    blurb = "Extremely silly, but Kong picks up a baby Kong and starts using him "
         .. "as a club, so that makes it all worth it."},
 
