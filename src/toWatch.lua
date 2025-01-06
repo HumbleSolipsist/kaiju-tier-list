@@ -564,9 +564,10 @@ local toWatch = {
         .. "but beautifully cathartic."},
   {tier = nil, year = 2016, title = "A Monster Calls"},
   {tier = nil, year = 2017, title = "I Kill Giants"},
-  {tier = "B", year = 2017, title = "The Ritual",
-   blurb = "Doesn't exactly break the genre mold, but doesn't need to. A very effective "
-        .. "\"some people get lost in the woods... and they're not alone\" film."},
+  {tier = "A", year = 2017, title = "The Ritual",
+   blurb = "Doesn't exactly break the horror-genre mold, but doesn't have to. The occasional "
+        .. "surreality makes it impressively dream-like (I swear I've had nightmares /just/ "
+        .. "like this), and the monster design is sick."},
   {tier = nil, year = 2017, title = "Boar"},
   {tier = nil, year = 2018, title = "Koujin"},
   {tier = "C", year = 2018, title = "Rampage",
