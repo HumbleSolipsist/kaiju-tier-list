@@ -30,15 +30,19 @@ local function processChildElements(element, processString)
   return output:sub(1, -2)
 end
 
+-- loop utility function for iterating over element's attributes
+-- in alphabetical order
 local function attributes(element)
   local atts = {}
   
+  -- Extract all attributes from the element
   for k, v in pairs(element.content) do
     if type(k) == "string" then
       atts[#atts + 1] = {key = k, val = v}
     end
   end
   
+  -- Sort attributes in alphabetical order
   table.sort(atts, function (a, b)
     local l, m = string.len(a.key), string.len(b.key)
     for i = 1, math.min(l, m) do
@@ -50,6 +54,7 @@ local function attributes(element)
     return l < m
   end)
 
+  -- iterate over attributes
   local function iterator(state, control)
     state.i = state.i + 1
     local i = state.i
@@ -63,9 +68,9 @@ local function attributes(element)
   
   local state = {i = 0}
   local control = true
-  local close = nil
 
-  return iterator, state, control, close 
+  -- return loop utilities
+  return iterator, state, control
 end
 
 local function elementToHtml(element)
