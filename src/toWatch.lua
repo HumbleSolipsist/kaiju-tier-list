@@ -371,7 +371,10 @@ local toWatch = {
   {tier = nil, year = 1957, title = "The Deadly Mantis"},
   {tier = nil, year = 1957, title = "Monster from Green Hell"},
   {tier = nil, year = 1958, title = "The Spider"},
-  {tier = nil, year = 1975, title = "The Giant Spider Invasion"},
+  {tier = "E", year = 1975, title = "The Giant Spider Invasion",
+   blurb = "When they started filming they only had a few pages of script, and "
+        .. "made their screenwriter write with ridiculous speed under threat of "
+        .. "witholding food. No wonder it turned out so shit."},
   {tier = nil, year = 1977, title = "Empire of the Ants"},
   {tier = nil, year = 2000, title = "Spiders"},
   {tier = nil, year = 2001, title = "Arachnid"},
