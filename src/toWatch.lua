@@ -400,7 +400,10 @@ local toWatch = {
         .. "- IMDB user 13FunBags"},
   {tier = nil, year = 1962, title = "Kujira Gami"},
   {tier = nil, year = 1978, title = "The Bermuda Depths"},
-  {tier = nil, year = 1980, title = "Island Claws"},
+  {tier = "D", year = 1980, title = "Island Claws",
+   blurb = "Couldn't decide what stereotypical monster origin to go with. Was it the "
+        .. "scientists trying to solve world hunger? The spill from the nuclear power "
+        .. "plant? The Haitians' voodoo? Who cares! Giant crab."},
   {tier = nil, year = 1998, title = "Deep Rising"},
   {tier = "D", year = 2018, title = "The Meg",
    blurb = "Basically a 150 million USD B-movie. But at the end they put "
@@ -555,7 +558,7 @@ local toWatch = {
    blurb = "Immature, unfunny, but kinda cute, and the action doesn't suck."},
   {tier = "C", year = 2009, title = "Geharha: The Dark & Long Hair Monster",
    blurb = "An amusing short film that parodies Godzilla."},
-  {tier = "S", year = 2010, title = "Trollhunter",
+  {tier = "A", year = 2010, title = "Trollhunter",
    blurb = "Original, human, and able to engender sympathy for the monsters without "
         .. "ever getting sappy."},
   {tier = nil, year = 2011, title = "Behemoth"},
@@ -567,7 +570,10 @@ local toWatch = {
         .. "but beautifully cathartic."},
   {tier = nil, year = 2016, title = "A Monster Calls"},
   {tier = nil, year = 2017, title = "I Kill Giants"},
-  {tier = nil, year = 2017, title = "The Ritual"},
+  {tier = "A", year = 2017, title = "The Ritual",
+   blurb = "Doesn't exactly break the horror-genre mold, but doesn't have to. The occasional "
+        .. "surreality makes it impressively dream-like (I swear I've had nightmares /just/ "
+        .. "like this), and the monster design is sick."},
   {tier = nil, year = 2017, title = "Boar"},
   {tier = nil, year = 2018, title = "Koujin"},
   {tier = "C", year = 2018, title = "Rampage",
@@ -591,7 +597,8 @@ local toWatch = {
   {tier = nil, year = 2021, title = "The Great Yokai War: Guardians"},
   {tier = nil, year = 2021, title = "Uktena: The Horned Monstrosity"},
   {tier = nil, year = 2022, title = "What to Do With the Dead Kaiju?"},
-  {tier = nil, year = 2022, title = "Turning Red"},
+  {tier = "A", year = 2022, title = "Turning Red",
+   blurb = "I'm not ashamed to say I cried a little."},
   {tier = nil, year = 2022, title = "Yuzo the Biggest Battle in Tokyo"},
   {tier = nil, year = 2022, title = "The Lake"},
   {tier = "B", year = 2022, title = "Troll",
