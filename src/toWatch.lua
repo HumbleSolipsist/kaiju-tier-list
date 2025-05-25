@@ -346,7 +346,8 @@ local toWatch = {
   {tier = nil, year = 1967, title = "Yonggary"},
   {tier = nil, year = 1969, title = "The Valley of Gwangi"},
   {tier = nil, year = 1974, title = "The Land That Time Forgot"},
-  {tier = nil, year = 1977, title = "The Crater Lake Monster"},
+  {tier = "D", year = 1977, title = "The Crater Lake Monster",
+   blurb = "Well... At least the plesiosaur was cool I guess."},
   {tier = nil, year = 1977, title = "Legend of Dinosaurs and Monster Birds"},
   {tier = nil, year = 1977, title = "The Last Dinosaur"},
   {tier = nil, year = 1983, title = "Attack of the Super Monsters"},
@@ -400,7 +401,7 @@ local toWatch = {
         .. "- IMDB user 13FunBags"},
   {tier = nil, year = 1962, title = "Kujira Gami"},
   {tier = nil, year = 1978, title = "The Bermuda Depths"},
-  {tier = "D", year = 1980, title = "Island Claws",
+  {tier = "E", year = 1980, title = "Island Claws",
    blurb = "Couldn't decide what stereotypical monster origin to go with. Was it the "
         .. "scientists trying to solve world hunger? The spill from the nuclear power "
         .. "plant? The Haitians' voodoo? Who cares! Giant crab."},

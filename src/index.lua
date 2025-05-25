@@ -88,9 +88,10 @@ return html.document{
     },
     html.div{
       class = "mainContent",
-      html.h1{class = "pageTitle", "Andrew's Kaiju Film Tier List"},
+      html.h1{class = "pageTitle", "Andrew's Kaiju Film and Creature Feature Tier List"},
       html.p{class = "intro",
-        "My kaiju film tier list. The term \"kaiju\" is used loosely here.",
+        "My kaiju film and creature-feature tier list. Any movie about a giant",
+        "monster is welcome here!",
         "There are many items in here whose placement I am uncertain of, but I",
         "think the list is mostly well organised.",
         "There is a little blurb for each rated film which you can see by hovering",
