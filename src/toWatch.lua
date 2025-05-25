@@ -346,7 +346,7 @@ local toWatch = {
   {tier = nil, year = 1967, title = "Yonggary"},
   {tier = nil, year = 1969, title = "The Valley of Gwangi"},
   {tier = nil, year = 1974, title = "The Land That Time Forgot"},
-  {tier = "D", year = 1977, title = "The Crater Lake Monster",
+  {tier = "E", year = 1977, title = "The Crater Lake Monster",
    blurb = "Well... At least the plesiosaur was cool I guess."},
   {tier = nil, year = 1977, title = "Legend of Dinosaurs and Monster Birds"},
   {tier = nil, year = 1977, title = "The Last Dinosaur"},
