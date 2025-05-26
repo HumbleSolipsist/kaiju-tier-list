@@ -371,7 +371,8 @@ local toWatch = {
   {tier = nil, year = 1957, title = "The Black Scorpion"},
   {tier = nil, year = 1957, title = "The Deadly Mantis"},
   {tier = nil, year = 1957, title = "Monster from Green Hell"},
-  {tier = nil, year = 1958, title = "The Spider"},
+  {tier = "D", year = 1958, title = "The Spider",
+   blurb = "Nothing especially novel, but there's plenty of action (for the era)."},
   {tier = "E", year = 1975, title = "The Giant Spider Invasion",
    blurb = "When they started filming they only had a few pages of script, and "
         .. "made their screenwriter write with ridiculous speed under threat of "
