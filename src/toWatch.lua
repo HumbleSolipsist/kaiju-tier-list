@@ -288,7 +288,9 @@ local toWatch = {
         .. "captivating."},
 
   -- Mega Shark
-  {tier = nil, year = 2009, title = "Mega Shark Versus Giant Octopus"},
+  {tier = "E", year = 2009, title = "Mega Shark Versus Giant Octopus",
+   blurb = "When the audio is clear enough for you to hear the characters, they "
+        .. "don't tend to say much worth paying attention to."},
   {tier = nil, year = 2010, title = "Mega Shark Versus Crocosaurus"},
   {tier = nil, year = 2014, title = "Mega Shark Versus Mecha Shark"},
   {tier = nil, year = 2015, title = "Mega Shark Versus Kolossus"},
