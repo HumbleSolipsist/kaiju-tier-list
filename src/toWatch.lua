@@ -328,7 +328,8 @@ local toWatch = {
   {tier = "F", year = 1955, title = "King Dinosaur",
    blurb = "Imagine my disappointment when, after an uneventful first 40 minutes, "
         .. "the therapod on the poster turned out to be another fucking iguana."},
-  {tier = nil, year = 1956, title = "The Beast of Hollow Mountain"},
+  {tier = "E", year = 1956, title = "The Beast of Hollow Mountain",
+   blurb = "A little boring, a lot racist."},
   {tier = "C", year = 1956, title = "Rodan",
    blurb = "Suspenseful first two acts, but the climax lacked a certain je ne sais "
         .. "pas. At least the visuals were excellent throughout."},
@@ -339,7 +340,8 @@ local toWatch = {
    blurb = "The use of live reptiles with spikes glued on to portray dinosaurs is "
         .. "made all the more disgusting by the dino-on-dino fight scene. No blackface "
         .. "this time, but still pretty racist."},
-  {tier = nil, year = 1961, title = "Reptilicus"},
+  {tier = "D", year = 1961, title = "Reptilicus",
+   blurb = "Wanna rewatch The Beast from 20,000 Fathoms, but slightly worse?"},
   {tier = nil, year = 1961, title = "Gorgo"},
   {tier = "C", year = 1966, title = "One Million Years B.C.",
    blurb = "Fairly one-note, portraying prehistoric life as almost entirely dominated "
